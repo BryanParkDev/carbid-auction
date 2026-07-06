@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-06 22:22 KST",
+ "generated_at": "2026-07-06 23:27 KST",
  "run_date": "2026-07-06",
  "keywords": [
   "bmw",
@@ -30,12 +30,10 @@
   "Gv70": 3,
   "G80": 4
  },
- "new_count": 7,
+ "new_count": 0,
  "drop_count": 0,
  "first_run": false,
- "summary_lines": [
-  "신규 7건: GV70(수원지방법원), GV70(마산지원), GV70(고양지원), G80(서울동부지방법원), G80(인천지방법원), G80(강릉지원)"
- ],
+ "summary_lines": [],
  "items": [
   {
    "court": "대전지방법원",
@@ -134,7 +132,7 @@
    "key": "B000250|20250130057827|1",
    "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "Gv70",
-   "is_new": true
+   "is_new": false
   },
   {
    "court": "순천지원",
@@ -233,7 +231,7 @@
    "key": "B214807|20260130060695|1",
    "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "Gv70",
-   "is_new": true
+   "is_new": false
   },
   {
    "court": "대구서부지원",
@@ -299,7 +297,7 @@
    "key": "B000320|20260130003065|1",
    "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "G80",
-   "is_new": true
+   "is_new": false
   },
   {
    "court": "의정부지방법원",
@@ -629,7 +627,7 @@
    "key": "B000240|20260130501188|1",
    "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "G80",
-   "is_new": true
+   "is_new": false
   },
   {
    "court": "수원지방법원",
@@ -1226,7 +1224,7 @@
    "key": "B000431|20250130021097|1",
    "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "Gv70",
-   "is_new": true
+   "is_new": false
   },
   {
    "court": "서울남부지방법원",
@@ -1325,7 +1323,7 @@
    "key": "B000261|20260130050001|1",
    "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "G80",
-   "is_new": true
+   "is_new": false
   },
   {
    "court": "대구지방법원",
@@ -1391,7 +1389,7 @@
    "key": "B000211|20250130051716|1",
    "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "G80",
-   "is_new": true
+   "is_new": false
   }
  ],
  "errors": [],
