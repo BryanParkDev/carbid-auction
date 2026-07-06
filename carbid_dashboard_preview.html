@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carbid — 법원경매 승용차 모니터</title>
+<style>
+  .viz-root{
+    --surface-1:#fcfcfb; --page:#f9f9f7;
+    --ink-1:#0b0b0b; --ink-2:#52514e; --ink-3:#898781;
+    --grid:#e1e0d9; --accent:#2a78d6;
+    --good:#006300; --warn:#eda100; --drop:#e34948;
+    --border:rgba(11,11,11,.10);
+  }
+  @media (prefers-color-scheme: dark){
+    .viz-root{
+      --surface-1:#1a1a19; --page:#0d0d0d;
+      --ink-1:#ffffff; --ink-2:#c3c2b7; --ink-3:#898781;
+      --grid:#2c2c2a; --accent:#3987e5;
+      --good:#0ca30c; --drop:#e66767;
+      --border:rgba(255,255,255,.10);
+    }
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--page);color:var(--ink-1);
+       font:14px/1.5 system-ui,-apple-system,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif}
+  .viz-root{max-width:1240px;margin:0 auto;padding:28px 20px 60px}
+  header h1{font-size:20px;font-weight:700}
+  header .sub{color:var(--ink-2);margin-top:4px;font-size:13px}
+  .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:22px 0}
+  .tile{background:var(--surface-1);border:1px solid var(--border);border-radius:10px;padding:13px 15px}
+  .tile .label{font-size:12px;color:var(--ink-2)}
+  .tile .value{font-size:24px;font-weight:600;margin-top:2px}
+  .tile .value .unit{font-size:13px;font-weight:400;color:var(--ink-3);margin-left:2px}
+  .tile.newt .value{color:var(--accent)}
+  .tile.dropt .value{color:var(--drop)}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 18px}
+  .chip{border:1px solid var(--border);background:var(--surface-1);color:var(--ink-2);
+        border-radius:999px;padding:5px 14px;font-size:13px;cursor:pointer;user-select:none}
+  .chip.on{background:var(--accent);border-color:var(--accent);color:#fff}
+  .card{background:var(--surface-1);border:1px solid var(--border);border-radius:10px;overflow:auto}
+  .card + .card{margin-top:22px}
+  .card h2{font-size:14px;font-weight:700;padding:14px 16px 0}
+  .card .cardsub{font-size:12px;color:var(--ink-3);padding:2px 16px 6px}
+  table{width:100%;border-collapse:collapse;min-width:940px}
+  th,td{padding:9px 12px;text-align:left;white-space:nowrap}
+  thead th{font-size:12px;color:var(--ink-3);font-weight:600;border-bottom:1px solid var(--grid);
+           position:sticky;top:0;background:var(--surface-1);cursor:pointer}
+  thead th .arrow{font-size:10px;margin-left:3px}
+  tbody td{border-bottom:1px solid var(--grid);font-variant-numeric:tabular-nums}
+  tbody tr:last-child td{border-bottom:none}
+  tbody tr:hover td{background:color-mix(in srgb, var(--accent) 6%, transparent)}
+  .car{font-weight:600;white-space:normal;min-width:220px}
+  .muted{color:var(--ink-3);font-size:12px}
+  .badge{display:inline-block;font-size:11px;font-weight:700;color:#fff;background:var(--accent);
+         border-radius:5px;padding:1px 7px;margin-left:6px;vertical-align:1px}
+  .badge.drop{background:var(--drop)}
+  .num{text-align:right}
+  th.num{text-align:right}
+  .dday{font-size:12px;color:var(--ink-2)}
+  .dday.soon{color:var(--warn);font-weight:600}
+  .ratio-low{color:var(--good);font-weight:600}
+  .dropline{color:var(--drop);font-size:12px}
+  .statrow{display:flex;flex-wrap:wrap;gap:16px;padding:8px 16px 14px;font-size:13px;color:var(--ink-2)}
+  .statrow b{color:var(--ink-1)}
+  footer{margin-top:16px;color:var(--ink-3);font-size:12px}
+  .empty{padding:36px;text-align:center;color:var(--ink-2)}
+  a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="viz-root">
+  <header>
+    <h1>법원경매 승용차 모니터</h1>
+    <div class="sub" id="subline"></div>
+  </header>
+
+  <div class="tiles" id="tiles"></div>
+  <div class="chips" id="chips"></div>
+
+  <div class="card">
+    <table id="tbl">
+      <thead><tr>
+        <th data-k="name">차명</th>
+        <th data-k="year" class="num">연식</th>
+        <th data-k="court">법원</th>
+        <th data-k="case_no">사건번호</th>
+        <th data-k="appraisal" class="num">감정가</th>
+        <th data-k="min_price" class="num">최저매각가</th>
+        <th data-k="ratio" class="num">최저/감정</th>
+        <th data-k="fail_count" class="num">유찰</th>
+        <th data-k="sale_date">매각기일</th>
+        <th data-k="status">상태</th>
+      </tr></thead>
+      <tbody id="tbody"></tbody>
+    </table>
+    <div class="empty" id="empty" style="display:none">조건에 맞는 물건이 없습니다.</div>
+  </div>
+
+  <div class="card" id="resultscard" style="display:none">
+    <h2>낙찰 DB — 최근 매각 결과</h2>
+    <div class="cardsub" id="resultssub"></div>
+    <div class="statrow" id="statrow"></div>
+    <table>
+      <thead><tr>
+        <th>차명</th><th class="num">연식</th><th>법원</th><th>사건번호</th>
+        <th class="num">감정가</th><th class="num">낙찰가</th><th class="num">낙찰가율</th><th>매각일</th>
+      </tr></thead>
+      <tbody id="rbody"></tbody>
+    </table>
+  </div>
+
+  <footer>
+    조건: 전국 법원 · 차량&gt;승용차 · 연식 <span id="ymin"></span>년 이상 · 키워드 <span id="kws"></span> ·
+    출처 <a href="https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml"
+    target="_blank" rel="noopener">법원경매정보</a><span id="note"></span>
+  </footer>
+</div>
+
+<script id="data" type="application/json">{"generated_at": "2026-07-06 08:00 KST", "run_date": "2026-07-06", "keywords": ["bmw", "그랜저", "a7"], "year_min": 2020, "api_url": "mock", "count": 3, "new_count": 1, "drop_count": 1, "had_prev": true, "items": [{"court": "서울중앙지방법원", "case_no": "2025타경11111", "item_no": "1", "name": "BMW 520i (G30)", "year": 2021, "appraisal": 35000000, "min_price": 22400000, "fail_count": 1, "sale_date": "2026-08-03", "sale_time": "10:00", "sale_place": "경매법정", "status": "진행", "notice_dt": "2026-07-01", "dept": "경매5계", "fuel": "휘발유", "gearbox": "자동", "mileage": 50000, "reg_no": "12가3456", "keyword": "bmw", "ratio": 64.0, "key": "서울중앙지방법원|2025타경11111|1", "detail_url": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/x&amp;csNo=1", "court_cd": "B000210", "cs_no_raw": "20250130012345", "is_new": false, "prev_min_price": 28000000, "drop_pct": 20.0}, {"court": "부산지방법원", "case_no": "2025타경33333", "item_no": "1", "name": "아우디 A7 45 TFSI", "year": 2021, "appraisal": 45000000, "min_price": 36000000, "fail_count": 1, "sale_date": "2026-07-20", "sale_time": "10:00", "sale_place": "경매법정", "status": "진행", "notice_dt": "2026-07-01", "dept": "경매5계", "fuel": "휘발유", "gearbox": "자동", "mileage": 50000, "reg_no": "12가3456", "keyword": "a7", "ratio": 80.0, "key": "부산지방법원|2025타경33333|1", "detail_url": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/x&amp;csNo=1", "court_cd": "B000210", "cs_no_raw": "20250130012345", "is_new": false}, {"court": "서울중앙지방법원", "case_no": "2025타경44444", "item_no": "1", "name": "BMW X3 xDrive20i", "year": 2022, "appraisal": 38000000, "min_price": 30000000, "fail_count": 0, "sale_date": "2026-07-20", "sale_time": "10:00", "sale_place": "경매법정", "status": "진행", "notice_dt": "2026-07-01", "dept": "경매5계", "fuel": "휘발유", "gearbox": "자동", "mileage": 50000, "reg_no": "12가3456", "keyword": "bmw", "ratio": 78.9, "key": "서울중앙지방법원|2025타경44444|1", "detail_url": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/x&amp;csNo=1", "court_cd": "B000210", "cs_no_raw": "20250130012345", "is_new": true}], "recent_results": [{"key": "서울중앙지방법원|2025타경22222|1", "court": "서울중앙지방법원", "case_no": "2025타경22222", "item_no": "1", "name": "그랜저 IG 2.5", "year": 2020, "keyword": "그랜저", "appraisal": 21000000, "min_price": 21000000, "hammer": 17850000, "sale_date": "2026-07-02", "status": "매각", "hammer_ratio": 85.0}, {"key": "수원지방법원|2024타경9999|1", "court": "수원지방법원", "case_no": "2024타경9999", "item_no": "1", "name": "BMW 320d", "year": 2020, "keyword": "bmw", "appraisal": 25000000, "min_price": 16000000, "hammer": 18200000, "sale_date": "2026-06-25", "status": "매각", "hammer_ratio": 72.8}], "stats": {"bmw": {"n": 1, "avg_ratio": 72.8, "min_ratio": 72.8, "max_ratio": 72.8}, "그랜저": {"n": 1, "avg_ratio": 85.0, "min_ratio": 85.0, "max_ratio": 85.0}}, "results_total": 2, "changes": {"new": ["서울중앙지방법원|2025타경44444|1"], "price_drop": [{"key": "서울중앙지방법원|2025타경11111|1", "old": 28000000, "new": 22400000, "pct": 20.0}], "date_changed": [{"key": "서울중앙지방법원|2025타경11111|1", "old": "2026-07-20", "new": "2026-08-03"}], "gone": ["서울중앙지방법원|2025타경22222|1"], "returned": []}, "summary_lines": ["신규 1건: BMW X3 xDrive20i(서울중앙지방법원)", "가격 인하 1건: BMW 520i (G30)(서울중앙지방법원) 2,800만→2,240만(-20.0%)", "기일 변경 1건", "목록 제외(매각/취하 추정) 1건: 그랜저 IG 2.5(서울중앙지방법원)"], "enriched": 0, "errors": []}</script>
+<script>
+const D = JSON.parse(document.getElementById('data').textContent);
+const items = D.items || [];
+let filt = '전체', sortK = 'sale_date', sortAsc = true;
+
+document.getElementById('subline').textContent =
+  `수집 시각 ${D.generated_at} · 총 ${D.count}건`
+  + (D.new_count ? ` · 신규 ${D.new_count}건` : '')
+  + (D.drop_count ? ` · 가격인하 ${D.drop_count}건` : '');
+document.getElementById('ymin').textContent = D.year_min;
+document.getElementById('kws').textContent = (D.keywords||[]).join(', ');
+if (!D.had_prev) document.getElementById('note').textContent = ' · 첫 수집(비교 기준 없음)';
+
+function won(v){
+  if (v == null) return '—';
+  if (v >= 1e8){ const e = Math.floor(v/1e8), m = Math.floor(v%1e8/1e4);
+    return m ? e + '억 ' + m.toLocaleString() + '만' : e + '억'; }
+  if (v >= 1e4) return Math.floor(v/1e4).toLocaleString() + '만';
+  return v.toLocaleString();
+}
+function dday(s){
+  if (!s) return '';
+  const d = Math.ceil((new Date(s) - new Date().setHours(0,0,0,0)) / 864e5);
+  if (isNaN(d)) return '';
+  if (d < 0) return '지남';
+  if (d === 0) return 'D-DAY';
+  return 'D-' + d;
+}
+
+// 타일
+const kwCounts = {};
+(D.keywords||[]).forEach(k => kwCounts[k] = items.filter(i => i.keyword === k).length);
+let tiles = [
+  {label:'진행 중 물건', value:D.count, unit:'건'},
+  {label:'신규', value:D.new_count||0, unit:'건', cls:'newt'},
+  {label:'가격 인하', value:D.drop_count||0, unit:'건', cls:'dropt'},
+];
+(D.keywords||[]).forEach(k => tiles.push({label:'“'+k+'”', value:kwCounts[k], unit:'건'}));
+tiles.push({label:'낙찰 DB 누적', value:D.results_total||0, unit:'건'});
+document.getElementById('tiles').innerHTML = tiles.map(t =>
+  `<div class="tile ${t.cls||''}"><div class="label">${t.label}</div>
+   <div class="value">${t.value}<span class="unit">${t.unit||''}</span></div></div>`).join('');
+
+// 칩
+const chips = ['전체', ...(D.keywords||[]), '신규만', '가격인하'];
+document.getElementById('chips').innerHTML = chips.map(c =>
+  `<span class="chip${c===filt?' on':''}" data-c="${c}">${c}</span>`).join('');
+document.getElementById('chips').onclick = e => {
+  const c = e.target.dataset.c; if (!c) return;
+  filt = c;
+  document.querySelectorAll('.chip').forEach(x => x.classList.toggle('on', x.dataset.c===c));
+  render();
+};
+
+document.querySelectorAll('#tbl thead th').forEach(th => th.onclick = () => {
+  const k = th.dataset.k;
+  if (sortK === k) sortAsc = !sortAsc; else { sortK = k; sortAsc = true; }
+  render();
+});
+
+function detLine(i){
+  const bits = [];
+  if (i.mileage) bits.push(i.mileage.toLocaleString()+'km');
+  if (i.fuel) bits.push(i.fuel);
+  if (i.gearbox) bits.push(i.gearbox);
+  const d = i.detail || {};
+  if (d.engine_ok) bits.push('시동 '+d.engine_ok);
+  if (d.key_yn) bits.push('키 '+d.key_yn);
+  if (d.storage) bits.push(d.storage);
+  return bits.length ? `<div class="muted">${bits.join(' · ')}</div>` : '';
+}
+
+function render(){
+  let rows = items;
+  if (filt === '신규만') rows = rows.filter(i => i.is_new);
+  else if (filt === '가격인하') rows = rows.filter(i => i.drop_pct);
+  else if (filt !== '전체') rows = rows.filter(i => i.keyword === filt);
+  rows = [...rows].sort((a,b) => {
+    let x = a[sortK], y = b[sortK];
+    if (x == null) return 1; if (y == null) return -1;
+    if (typeof x === 'string') { x = x.toLowerCase(); y = (y||'').toLowerCase(); }
+    return (x < y ? -1 : x > y ? 1 : 0) * (sortAsc ? 1 : -1);
+  });
+  document.querySelectorAll('#tbl thead th').forEach(th => {
+    const a = th.querySelector('.arrow'); if (a) a.remove();
+    if (th.dataset.k === sortK){
+      const s = document.createElement('span'); s.className='arrow';
+      s.textContent = sortAsc ? '▲' : '▼'; th.appendChild(s);
+    }
+  });
+  document.getElementById('empty').style.display = rows.length ? 'none' : 'block';
+  document.getElementById('tbody').innerHTML = rows.map(i => {
+    const dd = dday(i.sale_date);
+    const soon = dd && dd !== '지남' && (dd === 'D-DAY' || parseInt(dd.slice(2)) <= 7);
+    return `<tr>
+      <td class="car">${i.name||'—'}${i.is_new?'<span class="badge">NEW</span>':''}${i.drop_pct?'<span class="badge drop">↓'+i.drop_pct+'%</span>':''}
+        ${detLine(i)}</td>
+      <td class="num">${i.year||'—'}</td>
+      <td>${i.court||'—'}${i.dept?`<div class="muted">${i.dept}</div>`:''}</td>
+      <td>${i.detail_url
+            ? `<a href="${i.detail_url}" target="_blank" rel="noopener">${i.case_no||'—'}</a>`
+            : (i.case_no||'—')}${i.item_no && i.item_no!=='1'?` <span class="muted">(${i.item_no})</span>`:''}</td>
+      <td class="num">${won(i.appraisal)}</td>
+      <td class="num">${won(i.min_price)}
+        ${i.prev_min_price?`<div class="dropline">전주 ${won(i.prev_min_price)} → -${i.drop_pct}%</div>`:''}</td>
+      <td class="num">${i.ratio!=null?`<span class="${i.ratio<=70?'ratio-low':''}">${i.ratio}%</span>`:'—'}</td>
+      <td class="num">${i.fail_count||0}회</td>
+      <td>${i.sale_date||'—'} <span class="dday ${soon?'soon':''}">${dd}</span></td>
+      <td>${i.status||'—'}</td>
+    </tr>`;
+  }).join('');
+}
+render();
+
+// 낙찰 DB 카드
+const rr = D.recent_results || [];
+if (rr.length || (D.results_total||0) > 0){
+  document.getElementById('resultscard').style.display = '';
+  document.getElementById('resultssub').textContent =
+    `누적 ${D.results_total}건 중 최근 ${rr.length}건 표시 · 낙찰가율 = 낙찰가/감정가`;
+  const st = D.stats || {};
+  document.getElementById('statrow').innerHTML = Object.keys(st).map(k =>
+    `<span>“${k}” 평균 낙찰가율 <b>${st[k].avg_ratio}%</b> <span class="muted">(${st[k].n}건, ${st[k].min_ratio}~${st[k].max_ratio}%)</span></span>`
+  ).join('') || '<span class="muted">낙찰가율 통계는 데이터가 쌓이면 표시됩니다.</span>';
+  document.getElementById('rbody').innerHTML = rr.map(r => `<tr>
+    <td class="car">${r.name||'—'}</td>
+    <td class="num">${r.year||'—'}</td>
+    <td>${r.court||'—'}</td>
+    <td>${r.case_no||'—'}</td>
+    <td class="num">${won(r.appraisal)}</td>
+    <td class="num">${won(r.hammer)}</td>
+    <td class="num">${r.hammer_ratio!=null?r.hammer_ratio+'%':'—'}</td>
+    <td>${r.sale_date||'—'}</td>
+  </tr>`).join('');
+}
+</script>
+</body>
+</html>

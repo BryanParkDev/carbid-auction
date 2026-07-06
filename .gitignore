@@ -1,0 +1,5 @@
+*.log
+launchd.out.log
+launchd.err.log
+__pycache__/
+.DS_Store
