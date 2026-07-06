@@ -40,7 +40,7 @@ SEARCH_URL = BASE + "/pgj/pgjsearch/searchControllerMain.on"
 RESULTS_URL = BASE + "/pgj/pgjsearch/selectDspslSchdRsltSrch.on"   # 매각결과(낙찰)
 REFERER = BASE + "/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ151F00.xml"
 
-KEYWORDS = ["bmw", "그랜저", "a7"]
+# 관심 차명 키워드는 keywords.txt에서 로드됨(아래 load_keywords). 파일 없으면 기본값.
 YEAR_MIN = 2020
 PAGE_SIZE = 40
 # 진행물건 검색조건 코드(캡처값). 매각결과(낙찰) 수집은 별도 코드 필요 — RESULTS 캡처 후 활성화.
@@ -74,6 +74,26 @@ ROOT = os.environ.get("CARBID_ROOT") or os.getcwd()
 DATA_DIR = os.path.join(ROOT, "data")
 DOCS_DIR = os.path.join(ROOT, "docs")
 KST = dt.timezone(dt.timedelta(hours=9))
+
+DEFAULT_KEYWORDS = ["bmw", "그랜저", "a7", "제네시스"]
+
+
+def load_keywords():
+    """관심 차명 키워드를 keywords.txt에서 로드(한 줄에 하나, # 주석 가능).
+    ★ 키워드는 계속 추가됨 — 코드 대신 이 파일만 고치면 전부 자동 반영."""
+    p = os.path.join(ROOT, "keywords.txt")
+    try:
+        with open(p, encoding="utf-8") as f:
+            kws = [ln.strip() for ln in f
+                   if ln.strip() and not ln.strip().startswith("#")]
+        if kws:
+            return kws
+    except FileNotFoundError:
+        pass
+    return list(DEFAULT_KEYWORDS)
+
+
+KEYWORDS = load_keywords()
 
 HEADERS = {
     "User-Agent": ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -222,13 +242,11 @@ def normalize(r):
 
 
 def which_keyword(it):
+    """차명에 어떤 관심 키워드가 포함되는지 판정(keywords.txt 기반 부분일치)."""
     nm = (it.get("name") or "").lower()
-    if "bmw" in nm:
-        return "bmw"
-    if "a7" in nm or "a 7" in nm:
-        return "a7"
-    if "그랜저" in nm or "grandeur" in nm:
-        return "그랜저"
+    for kw in KEYWORDS:
+        if kw.lower() in nm:
+            return kw
     return None
 
 
@@ -490,7 +508,8 @@ def run_pipeline(daily=False):
     dash = build_dashboard(out)
 
     has_change = any(ch[k] for k in ("new", "price_drop", "date_changed", "gone"))
-    print(f"[OK] 수집 {len(items)}건 (bmw {kw_counts['bmw']} / 그랜저 {kw_counts['그랜저']} / a7 {kw_counts['a7']}) "
+    kwstr = " / ".join(f"{k} {kw_counts.get(k, 0)}" for k in KEYWORDS)
+    print(f"[OK] 수집 {len(items)}건 ({kwstr}) "
           f"· 신규 {len(ch['new'])} · 인하 {len(ch['price_drop'])} "
           f"· 낙찰DB +{out['results_added']} (누적 {out['results_total']})")
     for kw, t in totals.items():

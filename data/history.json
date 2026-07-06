@@ -509,6 +509,111 @@
    "active": true,
    "name": "A7 55 TFSI quattro",
    "court": "인천지방법원"
+  },
+  "B000250|20250130057827|1": {
+   "snapshots": [
+    {
+     "min_price": 23100000,
+     "fail_count": 1,
+     "sale_date": "2026-07-06",
+     "date": "2026-07-06"
+    }
+   ],
+   "first_seen": "2026-07-06",
+   "last_seen": "2026-07-06",
+   "active": true,
+   "name": "GV70",
+   "court": "수원지방법원"
+  },
+  "B000431|20250130021097|1": {
+   "snapshots": [
+    {
+     "min_price": 32000000,
+     "fail_count": 0,
+     "sale_date": "2026-07-16",
+     "date": "2026-07-06"
+    }
+   ],
+   "first_seen": "2026-07-06",
+   "last_seen": "2026-07-06",
+   "active": true,
+   "name": "GV70",
+   "court": "마산지원"
+  },
+  "B214807|20260130060695|1": {
+   "snapshots": [
+    {
+     "min_price": 43000000,
+     "fail_count": 0,
+     "sale_date": "2026-07-07",
+     "date": "2026-07-06"
+    }
+   ],
+   "first_seen": "2026-07-06",
+   "last_seen": "2026-07-06",
+   "active": true,
+   "name": "GV70",
+   "court": "고양지원"
+  },
+  "B000211|20250130051716|1": {
+   "snapshots": [
+    {
+     "min_price": 46000000,
+     "fail_count": 0,
+     "sale_date": "2026-07-20",
+     "date": "2026-07-06"
+    }
+   ],
+   "first_seen": "2026-07-06",
+   "last_seen": "2026-07-06",
+   "active": true,
+   "name": "G80",
+   "court": "서울동부지방법원"
+  },
+  "B000240|20260130501188|1": {
+   "snapshots": [
+    {
+     "min_price": 39000000,
+     "fail_count": 0,
+     "sale_date": "2026-07-09",
+     "date": "2026-07-06"
+    }
+   ],
+   "first_seen": "2026-07-06",
+   "last_seen": "2026-07-06",
+   "active": true,
+   "name": "G80",
+   "court": "인천지방법원"
+  },
+  "B000261|20260130050001|1": {
+   "snapshots": [
+    {
+     "min_price": 37100000,
+     "fail_count": 1,
+     "sale_date": "2026-07-20",
+     "date": "2026-07-06"
+    }
+   ],
+   "first_seen": "2026-07-06",
+   "last_seen": "2026-07-06",
+   "active": true,
+   "name": "G80",
+   "court": "강릉지원"
+  },
+  "B000320|20260130003065|1": {
+   "snapshots": [
+    {
+     "min_price": 38500000,
+     "fail_count": 1,
+     "sale_date": "2026-07-07",
+     "date": "2026-07-06"
+    }
+   ],
+   "first_seen": "2026-07-06",
+   "last_seen": "2026-07-06",
+   "active": true,
+   "name": "G80",
+   "court": "대구서부지원"
   }
  },
  "updated": "2026-07-06",
