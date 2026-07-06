@@ -419,14 +419,13 @@ def probe():
 TEMPLATE = r"""<!DOCTYPE html>
 <html lang="ko"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light only">
 <title>Carbid — 법원경매 승용차 모니터</title>
 <style>
- .viz-root{--surface-1:#fcfcfb;--page:#f9f9f7;--ink-1:#0b0b0b;--ink-2:#52514e;--ink-3:#898781;
-   --grid:#e1e0d9;--accent:#2a78d6;--good:#006300;--warn:#eda100;--drop:#e34948;--purple:#4a3aa7;
-   --border:rgba(11,11,11,.10)}
- @media (prefers-color-scheme:dark){.viz-root{--surface-1:#1a1a19;--page:#0d0d0d;--ink-1:#fff;
-   --ink-2:#c3c2b7;--ink-3:#898781;--grid:#2c2c2a;--accent:#3987e5;--good:#0ca30c;--drop:#e66767;
-   --purple:#9085e9;--border:rgba(255,255,255,.10)}}
+ :root{color-scheme:light}
+ .viz-root{--surface-1:#ffffff;--page:#f4f5f7;--ink-1:#0b0b0b;--ink-2:#52514e;--ink-3:#898781;
+   --grid:#e6e6e2;--accent:#2a78d6;--good:#006300;--warn:#c98500;--drop:#d83b3a;--purple:#4a3aa7;
+   --border:rgba(11,11,11,.12)}
  *{box-sizing:border-box;margin:0;padding:0}
  body{background:var(--page);color:var(--ink-1);
    font:14px/1.5 system-ui,-apple-system,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif}
