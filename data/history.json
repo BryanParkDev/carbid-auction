@@ -511,5 +511,51 @@
    "court": "인천지방법원"
   }
  },
- "updated": "2026-07-06"
+ "updated": "2026-07-06",
+ "results": [
+  {
+   "key": "B000214|20250130073668|1",
+   "court": "의정부지방법원",
+   "case_no": "2025타경73668",
+   "name": "그랜저 하이브리드",
+   "year": 2020,
+   "keyword": "그랜저",
+   "appraisal": 22000000,
+   "hammer": 16569000,
+   "hammer_ratio": 75.3,
+   "sale_date": "2026-06-30",
+   "fail_count": 1,
+   "fuel": "하이브리드",
+   "first_recorded": "2026-07-06"
+  },
+  {
+   "key": "B214807|20260130060013|1",
+   "court": "고양지원",
+   "case_no": "2026타경60013",
+   "name": "BMW 520i",
+   "year": 2024,
+   "keyword": "bmw",
+   "appraisal": 55000000,
+   "hammer": 45050000,
+   "hammer_ratio": 81.9,
+   "sale_date": "2026-07-01",
+   "fail_count": 1,
+   "fuel": "하이브리드",
+   "first_recorded": "2026-07-06"
+  }
+ ],
+ "stats": {
+  "bmw": {
+   "n": 1,
+   "avg": 81.9,
+   "min": 81.9,
+   "max": 81.9
+  },
+  "그랜저": {
+   "n": 1,
+   "avg": 75.3,
+   "min": 75.3,
+   "max": 75.3
+  }
+ }
 }

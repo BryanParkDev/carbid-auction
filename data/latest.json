@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-06 17:14 KST",
+ "generated_at": "2026-07-06 22:15 KST",
  "run_date": "2026-07-06",
  "keywords": [
   "bmw",
@@ -50,7 +50,9 @@
    "bigo": "-보험사고이력 내차피해 5회, 상대차피해 6회(자차 미가입기간 사고이력 확인불가)",
    "flags": [],
    "reg_cnt": 8,
+   "docid": "B0002802025013050392511",
    "key": "B000280|20250130503925|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "그랜저",
    "is_new": false
   },
@@ -81,7 +83,9 @@
    "bigo": null,
    "flags": [],
    "reg_cnt": 41,
+   "docid": "B0002502025013005667711",
    "key": "B000250|20250130056677|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "bmw",
    "is_new": false
   },
@@ -112,7 +116,9 @@
    "bigo": null,
    "flags": [],
    "reg_cnt": 5,
+   "docid": "B0005132026013005042311",
    "key": "B000513|20260130050423|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "그랜저",
    "is_new": false
   },
@@ -143,7 +149,9 @@
    "bigo": "계기판상 주행거리는 83,198km임.\n전반적인 관리상태는 보통이고 사용연료는 하이브리드임.",
    "flags": [],
    "reg_cnt": 26,
+   "docid": "B0002532025013004267411",
    "key": "B000253|20250130042674|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "bmw",
    "is_new": false
   },
@@ -174,7 +182,9 @@
    "bigo": "감정평가서에 따르면 자동차등록원부상 색상은 '회색'으로 등재되어 있으나 현황은 '검정색'임. 백미러 파손 등이 있음.",
    "flags": [],
    "reg_cnt": 8,
+   "docid": "B0003202026013000351511",
    "key": "B000320|20260130003515|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "그랜저",
    "is_new": false
   },
@@ -205,7 +215,9 @@
    "bigo": null,
    "flags": [],
    "reg_cnt": 62,
+   "docid": "B0002142025013007361711",
    "key": "B000214|20250130073617|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "bmw",
    "is_new": false
   },
@@ -236,7 +248,9 @@
    "bigo": "1. 중고차사고이력정보보고서상 내차피해 4회, 상대차피해 4회 이력있음.\n2. 주행거리: 80,314km, 사용연료: 휘발유",
    "flags": [],
    "reg_cnt": 4,
+   "docid": "B2148072026013006028211",
    "key": "B214807|20260130060282|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "그랜저",
    "is_new": false
   },
@@ -267,7 +281,9 @@
    "bigo": "- 계기판상 주행거리는 12,601km\n- 유효검사기간 2024.02.26.~2028.02.25.",
    "flags": [],
    "reg_cnt": 17,
+   "docid": "B0005102026013003036811",
    "key": "B000510|20260130030368|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "bmw",
    "is_new": false
   },
@@ -298,7 +314,9 @@
    "bigo": null,
    "flags": [],
    "reg_cnt": 7,
+   "docid": "B0003102026013010070011",
    "key": "B000310|20260130100700|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "bmw",
    "is_new": false
   },
@@ -329,7 +347,9 @@
    "bigo": null,
    "flags": [],
    "reg_cnt": 10,
+   "docid": "B0002502025013005877411",
    "key": "B000250|20250130058774|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "그랜저",
    "is_new": false
   },
@@ -360,7 +380,9 @@
    "bigo": "-계기판상 주행거리: 131,274km\n-사용연료: 하이브리드(디젤+전기)\n-유효검사기간: 2023.04.12.~2027.04.11.\n-차량 일부에 스크레치 등이 있으며, 관리상태는 보통임.",
    "flags": [],
    "reg_cnt": 19,
+   "docid": "B0005102025013003421111",
    "key": "B000510|20250130034211|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "bmw",
    "is_new": false
   },
@@ -391,7 +413,9 @@
    "bigo": null,
    "flags": [],
    "reg_cnt": 17,
+   "docid": "B0002142025013007372211",
    "key": "B000214|20250130073722|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "bmw",
    "is_new": false
   },
@@ -422,7 +446,9 @@
    "bigo": null,
    "flags": [],
    "reg_cnt": 13,
+   "docid": "B0002402026013050097811",
    "key": "B000240|20260130500978|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "bmw",
    "is_new": false
   },
@@ -453,7 +479,9 @@
    "bigo": null,
    "flags": [],
    "reg_cnt": 10,
+   "docid": "B0002402026013050195211",
    "key": "B000240|20260130501952|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "bmw",
    "is_new": false
   },
@@ -484,7 +512,9 @@
    "bigo": null,
    "flags": [],
    "reg_cnt": 9,
+   "docid": "B0002502026013005063511",
    "key": "B000250|20260130050635|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "그랜저",
    "is_new": false
   },
@@ -515,7 +545,9 @@
    "bigo": null,
    "flags": [],
    "reg_cnt": 6,
+   "docid": "B0002502026013005095311",
    "key": "B000250|20260130050953|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "그랜저",
    "is_new": false
   },
@@ -546,7 +578,9 @@
    "bigo": null,
    "flags": [],
    "reg_cnt": 6,
+   "docid": "B0003202026013000324311",
    "key": "B000320|20260130003243|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "그랜저",
    "is_new": false
   },
@@ -577,7 +611,9 @@
    "bigo": "1. 주행거리 : 계기판 상 166,364km\n2. 보험사고이력 : 내차피해 1회(14,073,480원), 상대차피해 없음(기타 자세한 사항은 감정평가서 참조)",
    "flags": [],
    "reg_cnt": 7,
+   "docid": "B0002412026013003036411",
    "key": "B000241|20260130030364|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "bmw",
    "is_new": false
   },
@@ -608,7 +644,9 @@
    "bigo": "중고차 사고이력정보 보고서 상 내차 피해(1회 3,995,341원) 있음",
    "flags": [],
    "reg_cnt": 2,
+   "docid": "B0002542025013010136233",
    "key": "B000254|20250130101362|3",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "그랜저",
    "is_new": false
   },
@@ -639,7 +677,9 @@
    "bigo": null,
    "flags": [],
    "reg_cnt": 31,
+   "docid": "B0003102025013000999611",
    "key": "B000310|20250130009996|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "bmw",
    "is_new": false
   },
@@ -670,7 +710,9 @@
    "bigo": null,
    "flags": [],
    "reg_cnt": 14,
+   "docid": "B0003102025013001006811",
    "key": "B000310|20250130010068|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "bmw",
    "is_new": false
   },
@@ -701,7 +743,9 @@
    "bigo": null,
    "flags": [],
    "reg_cnt": 5,
+   "docid": "B0003102026013010026011",
    "key": "B000310|20260130100260|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "bmw",
    "is_new": false
   },
@@ -732,7 +776,9 @@
    "bigo": "- 기준시점(2026.04.22.) 현재 앞범퍼 좌측면 부분에 도색 벗겨짐, 후면 우측면 부분 파손(찌그러짐)이 있음.\n- 중고차사고이력정보보고서에 내차피해 3회(13,746,684원), 상대차피해 3회(2,115,510원)로 나타남.",
    "flags": [],
    "reg_cnt": 1,
+   "docid": "B0004142026013010047711",
    "key": "B000414|20260130100477|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "bmw",
    "is_new": false
   },
@@ -766,7 +812,9 @@
     "특별조건"
    ],
    "reg_cnt": 22,
+   "docid": "B0002402025013050834711",
    "key": "B000240|20250130508347|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "bmw",
    "is_new": false
   },
@@ -797,7 +845,9 @@
    "bigo": null,
    "flags": [],
    "reg_cnt": 41,
+   "docid": "B0002402025013051514811",
    "key": "B000240|20250130515148|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "bmw",
    "is_new": false
   },
@@ -828,7 +878,9 @@
    "bigo": null,
    "flags": [],
    "reg_cnt": 37,
+   "docid": "B0002402026013050170811",
    "key": "B000240|20260130501708|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "bmw",
    "is_new": false
   },
@@ -859,7 +911,9 @@
    "bigo": null,
    "flags": [],
    "reg_cnt": 9,
+   "docid": "B0002402026013050171911",
    "key": "B000240|20260130501719|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "bmw",
    "is_new": false
   },
@@ -890,7 +944,9 @@
    "bigo": "자동차등록원부(갑) 상 회색이나 검정색 임. \n(감정평가서 참조)",
    "flags": [],
    "reg_cnt": 33,
+   "docid": "B0002402026013050173211",
    "key": "B000240|20260130501732|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "bmw",
    "is_new": false
   },
@@ -921,7 +977,9 @@
    "bigo": null,
    "flags": [],
    "reg_cnt": 8,
+   "docid": "B0002402026013050216611",
    "key": "B000240|20260130502166|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "bmw",
    "is_new": false
   },
@@ -952,7 +1010,9 @@
    "bigo": "차 키 없음.\n(감정평가서 참조)",
    "flags": [],
    "reg_cnt": 23,
+   "docid": "B0002402026013050036511",
    "key": "B000240|20260130500365|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "a7",
    "is_new": false
   },
@@ -983,7 +1043,9 @@
    "bigo": null,
    "flags": [],
    "reg_cnt": 21,
+   "docid": "B0003102026013010062311",
    "key": "B000310|20260130100623|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "bmw",
    "is_new": false
   },
@@ -1014,7 +1076,9 @@
    "bigo": null,
    "flags": [],
    "reg_cnt": 4,
+   "docid": "B0002122026013000353411",
    "key": "B000212|20260130003534|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "그랜저",
    "is_new": false
   },
@@ -1045,7 +1109,9 @@
    "bigo": "- 보험사고이력 1회 있음.",
    "flags": [],
    "reg_cnt": 0,
+   "docid": "B0002612025013000029211",
    "key": "B000261|20250130000292|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "그랜저",
    "is_new": false
   },
@@ -1076,10 +1142,61 @@
    "bigo": null,
    "flags": [],
    "reg_cnt": 0,
+   "docid": "B0003102026013010106211",
    "key": "B000310|20260130101062|1",
+   "link": "https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ154M00.xml",
    "keyword": "bmw",
    "is_new": false
   }
  ],
- "errors": []
+ "errors": [],
+ "results_total": 2,
+ "results_added": 2,
+ "results_snapshot": 91,
+ "stats": {
+  "bmw": {
+   "n": 1,
+   "avg": 81.9,
+   "min": 81.9,
+   "max": 81.9
+  },
+  "그랜저": {
+   "n": 1,
+   "avg": 75.3,
+   "min": 75.3,
+   "max": 75.3
+  }
+ },
+ "recent_results": [
+  {
+   "key": "B214807|20260130060013|1",
+   "court": "고양지원",
+   "case_no": "2026타경60013",
+   "name": "BMW 520i",
+   "year": 2024,
+   "keyword": "bmw",
+   "appraisal": 55000000,
+   "hammer": 45050000,
+   "hammer_ratio": 81.9,
+   "sale_date": "2026-07-01",
+   "fail_count": 1,
+   "fuel": "하이브리드",
+   "first_recorded": "2026-07-06"
+  },
+  {
+   "key": "B000214|20250130073668|1",
+   "court": "의정부지방법원",
+   "case_no": "2025타경73668",
+   "name": "그랜저 하이브리드",
+   "year": 2020,
+   "keyword": "그랜저",
+   "appraisal": 22000000,
+   "hammer": 16569000,
+   "hammer_ratio": 75.3,
+   "sale_date": "2026-06-30",
+   "fail_count": 1,
+   "fuel": "하이브리드",
+   "first_recorded": "2026-07-06"
+  }
+ ]
 }
