@@ -3,3 +3,5 @@ launchd.out.log
 launchd.err.log
 __pycache__/
 .DS_Store
+# 로컬 보기용 사진(배포본은 docs/photos 에 커밋되어 GitHub Pages로 서빙됨)
+/photos/
