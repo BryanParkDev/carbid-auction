@@ -948,7 +948,10 @@ if(D.note) document.getElementById('note').textContent=D.note;
 function won(v){if(v==null)return '—';
  if(v>=1e8){const e=Math.floor(v/1e8),m=Math.floor(v%1e8/1e4);return m?e+'억 '+m.toLocaleString()+'만':e+'억';}
  if(v>=1e4)return Math.floor(v/1e4).toLocaleString()+'만';return v.toLocaleString();}
-function dday(s){if(!s)return '';const d=Math.ceil((new Date(s)-new Date().setHours(0,0,0,0))/864e5);
+function dday(s){if(!s)return '';const p=s.split('-').map(Number);if(p.length!==3)return '';
+ const kst=new Date(Date.now()+9*3600*1000);            // 뷰어 시간대와 무관하게 KST 기준 오늘
+ const t0=Date.UTC(kst.getUTCFullYear(),kst.getUTCMonth(),kst.getUTCDate());
+ const d=Math.round((Date.UTC(p[0],p[1]-1,p[2])-t0)/864e5);
  if(isNaN(d))return '';if(d<0)return '지남';if(d===0)return 'D-DAY';return 'D-'+d;}
 const kc=D.kw_counts||{};
 let tiles=[{l:'진행 중',v:D.count,u:'건'},{l:'신규',v:D.new_count||0,u:'건',c:'n'},
@@ -1146,7 +1149,10 @@ function won(v){if(v==null)return '—';
  if(v>=1e4)return Math.floor(v/1e4).toLocaleString()+'만';return v.toLocaleString();}
 function km(v){return v==null?'—':v>=1e4?(Math.round(v/1e3)/10)+'만km':v.toLocaleString()+'km';}
 function esc(s){return (s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
-function dday(s){if(!s)return '';const d=Math.ceil((new Date(s)-new Date().setHours(0,0,0,0))/864e5);
+function dday(s){if(!s)return '';const p=s.split('-').map(Number);if(p.length!==3)return '';
+ const kst=new Date(Date.now()+9*3600*1000);            // 뷰어 시간대와 무관하게 KST 기준 오늘
+ const t0=Date.UTC(kst.getUTCFullYear(),kst.getUTCMonth(),kst.getUTCDate());
+ const d=Math.round((Date.UTC(p[0],p[1]-1,p[2])-t0)/864e5);
  if(isNaN(d))return '';if(d<0)return '(지남)';if(d===0)return '(D-DAY)';return '(D-'+d+')';}
 function fld(k,v){return v==null||v===''?'':`<div class="f"><div class="k">${k}</div><div class="v">${v}</div></div>`;}
 function badges(i){let s='';

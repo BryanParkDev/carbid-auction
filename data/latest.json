@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-11 20:58 KST",
+ "generated_at": "2026-07-11 21:09 KST",
  "run_date": "2026-07-11",
  "keywords": [
   "bmw",
@@ -36,13 +36,10 @@
   "카이엔": 1,
   "마칸": 0
  },
- "new_count": 6,
+ "new_count": 0,
  "drop_count": 0,
  "first_run": false,
- "summary_lines": [
-  "신규 6건: BMW X6 M Competition(수원지방법원), BMW 620d(대구지방법원), BMW 220i Gran Coupe(부산서부지원), 그랜저(GRANDEUR)(수원지방법원), 그랜저(GRANDEUR)(대구지방법원), G80(서울남부지방법원)",
-  "목록 제외(매각/취하 추정) 14건"
- ],
+ "summary_lines": [],
  "items": [
   {
    "court": "수원지방법원",
@@ -2241,7 +2238,7 @@
    ],
    "photo_count": 4,
    "detailed": true,
-   "is_new": true
+   "is_new": false
   },
   {
    "court": "서울남부지방법원",
@@ -2310,7 +2307,7 @@
    ],
    "photo_count": 8,
    "detailed": true,
-   "is_new": true
+   "is_new": false
   },
   {
    "court": "부산서부지원",
@@ -2379,7 +2376,7 @@
    ],
    "photo_count": 7,
    "detailed": true,
-   "is_new": true
+   "is_new": false
   },
   {
    "court": "대구지방법원",
@@ -2460,7 +2457,7 @@
    ],
    "photo_count": 14,
    "detailed": true,
-   "is_new": true
+   "is_new": false
   },
   {
    "court": "수원지방법원",
@@ -2551,7 +2548,7 @@
    ],
    "photo_count": 23,
    "detailed": true,
-   "is_new": true
+   "is_new": false
   },
   {
    "court": "수원지방법원",
@@ -2633,12 +2630,12 @@
    ],
    "photo_count": 14,
    "detailed": true,
-   "is_new": true
+   "is_new": false
   }
  ],
  "errors": [],
  "results_total": 7,
- "results_added": 4,
+ "results_added": 0,
  "results_snapshot": 218,
  "stats": {
   "bmw": {
