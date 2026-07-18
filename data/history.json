@@ -43,9 +43,10 @@
    ],
    "first_seen": "2026-07-06",
    "last_seen": "2026-07-15",
-   "active": true,
+   "active": false,
    "name": "BMW M135i xDrive",
-   "court": "인천지방법원"
+   "court": "인천지방법원",
+   "gone_date": "2026-07-18"
   },
   "B000240|20250130515148|1": {
    "snapshots": [
@@ -58,9 +59,10 @@
    ],
    "first_seen": "2026-07-06",
    "last_seen": "2026-07-15",
-   "active": true,
+   "active": false,
    "name": "BMW 530e",
-   "court": "인천지방법원"
+   "court": "인천지방법원",
+   "gone_date": "2026-07-18"
   },
   "B000240|20260130500978|1": {
    "snapshots": [
@@ -89,9 +91,10 @@
    ],
    "first_seen": "2026-07-06",
    "last_seen": "2026-07-15",
-   "active": true,
+   "active": false,
    "name": "BMW X4 xDrive20i",
-   "court": "인천지방법원"
+   "court": "인천지방법원",
+   "gone_date": "2026-07-18"
   },
   "B000240|20260130501719|1": {
    "snapshots": [
@@ -104,9 +107,10 @@
    ],
    "first_seen": "2026-07-06",
    "last_seen": "2026-07-15",
-   "active": true,
+   "active": false,
    "name": "BMW 320d xDrive",
-   "court": "인천지방법원"
+   "court": "인천지방법원",
+   "gone_date": "2026-07-18"
   },
   "B000240|20260130501732|1": {
    "snapshots": [
@@ -119,9 +123,10 @@
    ],
    "first_seen": "2026-07-06",
    "last_seen": "2026-07-15",
-   "active": true,
+   "active": false,
    "name": "BMW X5 xDrive30d",
-   "court": "인천지방법원"
+   "court": "인천지방법원",
+   "gone_date": "2026-07-18"
   },
   "B000240|20260130501952|1": {
    "snapshots": [
@@ -150,9 +155,10 @@
    ],
    "first_seen": "2026-07-06",
    "last_seen": "2026-07-15",
-   "active": true,
+   "active": false,
    "name": "BMW Z4 sDrive20i",
-   "court": "인천지방법원"
+   "court": "인천지방법원",
+   "gone_date": "2026-07-18"
   },
   "B000241|20260130030364|1": {
    "snapshots": [
@@ -213,9 +219,10 @@
    ],
    "first_seen": "2026-07-06",
    "last_seen": "2026-07-15",
-   "active": true,
+   "active": false,
    "name": "BMW 740d xDrive",
-   "court": "대구지방법원"
+   "court": "대구지방법원",
+   "gone_date": "2026-07-18"
   },
   "B000310|20250130010068|1": {
    "snapshots": [
@@ -228,9 +235,10 @@
    ],
    "first_seen": "2026-07-06",
    "last_seen": "2026-07-15",
-   "active": true,
+   "active": false,
    "name": "BMW 320i",
-   "court": "대구지방법원"
+   "court": "대구지방법원",
+   "gone_date": "2026-07-18"
   },
   "B000310|20260130100260|1": {
    "snapshots": [
@@ -243,9 +251,10 @@
    ],
    "first_seen": "2026-07-06",
    "last_seen": "2026-07-15",
-   "active": true,
+   "active": false,
    "name": "BMW 520i",
-   "court": "대구지방법원"
+   "court": "대구지방법원",
+   "gone_date": "2026-07-18"
   },
   "B000310|20260130100623|1": {
    "snapshots": [
@@ -258,9 +267,10 @@
    ],
    "first_seen": "2026-07-06",
    "last_seen": "2026-07-15",
-   "active": true,
+   "active": false,
    "name": "BMW X4 xDrive20i",
-   "court": "대구지방법원"
+   "court": "대구지방법원",
+   "gone_date": "2026-07-18"
   },
   "B000310|20260130100700|1": {
    "snapshots": [
@@ -288,7 +298,7 @@
     }
    ],
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-15",
+   "last_seen": "2026-07-18",
    "active": true,
    "name": "BMW X4 xDrive20i",
    "court": "대구지방법원"
@@ -304,9 +314,10 @@
    ],
    "first_seen": "2026-07-06",
    "last_seen": "2026-07-15",
-   "active": true,
+   "active": false,
    "name": "BMW 120i",
-   "court": "부산서부지원"
+   "court": "부산서부지원",
+   "gone_date": "2026-07-18"
   },
   "B000510|20250130034211|1": {
    "snapshots": [
@@ -351,9 +362,10 @@
    ],
    "first_seen": "2026-07-06",
    "last_seen": "2026-07-15",
-   "active": true,
+   "active": false,
    "name": "그랜저(GRANDEUR)",
-   "court": "서울남부지방법원"
+   "court": "서울남부지방법원",
+   "gone_date": "2026-07-18"
   },
   "B000250|20250130058774|1": {
    "snapshots": [
@@ -429,7 +441,7 @@
     }
    ],
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-15",
+   "last_seen": "2026-07-18",
    "active": true,
    "name": "그랜저 하이브리드(GRANDEUR HYBRID)",
    "court": "강릉지원"
@@ -525,9 +537,10 @@
    ],
    "first_seen": "2026-07-06",
    "last_seen": "2026-07-15",
-   "active": true,
+   "active": false,
    "name": "A7 55 TFSI quattro",
-   "court": "인천지방법원"
+   "court": "인천지방법원",
+   "gone_date": "2026-07-18"
   },
   "B000250|20250130057827|1": {
    "snapshots": [
@@ -556,9 +569,10 @@
    ],
    "first_seen": "2026-07-06",
    "last_seen": "2026-07-15",
-   "active": true,
+   "active": false,
    "name": "GV70",
-   "court": "마산지원"
+   "court": "마산지원",
+   "gone_date": "2026-07-18"
   },
   "B214807|20260130060695|1": {
    "snapshots": [
@@ -586,7 +600,7 @@
     }
    ],
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-15",
+   "last_seen": "2026-07-18",
    "active": true,
    "name": "G80",
    "court": "서울동부지방법원",
@@ -618,7 +632,7 @@
     }
    ],
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-15",
+   "last_seen": "2026-07-18",
    "active": true,
    "name": "G80",
    "court": "강릉지원",
@@ -650,7 +664,7 @@
     }
    ],
    "first_seen": "2026-07-07",
-   "last_seen": "2026-07-15",
+   "last_seen": "2026-07-18",
    "active": true,
    "name": "BMW 320i",
    "court": "남양주지원"
@@ -665,7 +679,7 @@
     }
    ],
    "first_seen": "2026-07-07",
-   "last_seen": "2026-07-15",
+   "last_seen": "2026-07-18",
    "active": true,
    "name": "그랜저(GRANDEUR)",
    "court": "제주지방법원"
@@ -680,7 +694,7 @@
     }
    ],
    "first_seen": "2026-07-07",
-   "last_seen": "2026-07-15",
+   "last_seen": "2026-07-18",
    "active": true,
    "name": "GV70",
    "court": "평택지원"
@@ -695,7 +709,7 @@
     }
    ],
    "first_seen": "2026-07-07",
-   "last_seen": "2026-07-15",
+   "last_seen": "2026-07-18",
    "active": true,
    "name": "G80",
    "court": "대구지방법원",
@@ -712,9 +726,10 @@
    ],
    "first_seen": "2026-07-07",
    "last_seen": "2026-07-15",
-   "active": true,
+   "active": false,
    "name": "카이엔",
-   "court": "대구지방법원"
+   "court": "대구지방법원",
+   "gone_date": "2026-07-18"
   },
   "B000250|20260130051085|1": {
    "snapshots": [
@@ -726,7 +741,7 @@
     }
    ],
    "first_seen": "2026-07-11",
-   "last_seen": "2026-07-15",
+   "last_seen": "2026-07-18",
    "active": true,
    "name": "BMW X6 M Competition",
    "court": "수원지방법원"
@@ -741,7 +756,7 @@
     }
    ],
    "first_seen": "2026-07-11",
-   "last_seen": "2026-07-15",
+   "last_seen": "2026-07-18",
    "active": true,
    "name": "BMW 620d",
    "court": "대구지방법원"
@@ -756,7 +771,7 @@
     }
    ],
    "first_seen": "2026-07-11",
-   "last_seen": "2026-07-15",
+   "last_seen": "2026-07-18",
    "active": true,
    "name": "BMW 220i Gran Coupe",
    "court": "부산서부지원"
@@ -771,7 +786,7 @@
     }
    ],
    "first_seen": "2026-07-11",
-   "last_seen": "2026-07-15",
+   "last_seen": "2026-07-18",
    "active": true,
    "name": "그랜저(GRANDEUR)",
    "court": "수원지방법원"
@@ -786,7 +801,7 @@
     }
    ],
    "first_seen": "2026-07-11",
-   "last_seen": "2026-07-15",
+   "last_seen": "2026-07-18",
    "active": true,
    "name": "그랜저(GRANDEUR)",
    "court": "대구지방법원"
@@ -801,7 +816,7 @@
     }
    ],
    "first_seen": "2026-07-11",
-   "last_seen": "2026-07-15",
+   "last_seen": "2026-07-18",
    "active": true,
    "name": "G80",
    "court": "서울남부지방법원",
@@ -817,7 +832,7 @@
     }
    ],
    "first_seen": "2026-07-13",
-   "last_seen": "2026-07-15",
+   "last_seen": "2026-07-18",
    "active": true,
    "name": "BMW 523d",
    "court": "순천지원"
@@ -832,7 +847,7 @@
     }
    ],
    "first_seen": "2026-07-13",
-   "last_seen": "2026-07-15",
+   "last_seen": "2026-07-18",
    "active": true,
    "name": "그랜저",
    "court": "남원지원"
@@ -847,13 +862,13 @@
     }
    ],
    "first_seen": "2026-07-15",
-   "last_seen": "2026-07-15",
+   "last_seen": "2026-07-18",
    "active": true,
    "name": "G80",
    "court": "천안지원"
   }
  },
- "updated": "2026-07-15",
+ "updated": "2026-07-18",
  "results": [
   {
    "key": "B000214|20250130073668|1",
@@ -974,20 +989,191 @@
    "fail_count": 1,
    "fuel": "LPG",
    "first_recorded": "2026-07-15"
+  },
+  {
+   "key": "B000240|20250130515148|1",
+   "court": "인천지방법원",
+   "case_no": "2025타경515148",
+   "name": "BMW 530e",
+   "year": 2022,
+   "keyword": "bmw",
+   "appraisal": 50000000,
+   "hammer": 26999999,
+   "hammer_ratio": 54.0,
+   "sale_date": "2026-07-15",
+   "fail_count": 2,
+   "fuel": "하이브리드",
+   "first_recorded": "2026-07-18"
+  },
+  {
+   "key": "B000240|20260130500365|1",
+   "court": "인천지방법원",
+   "case_no": "2026타경500365",
+   "name": "A7 55 TFSI quattro",
+   "year": 2021,
+   "keyword": "a7",
+   "appraisal": 55000000,
+   "hammer": 43510000,
+   "hammer_ratio": 79.1,
+   "sale_date": "2026-07-15",
+   "fail_count": 1,
+   "fuel": "가솔린",
+   "first_recorded": "2026-07-18"
+  },
+  {
+   "key": "B000240|20260130501708|1",
+   "court": "인천지방법원",
+   "case_no": "2026타경501708",
+   "name": "BMW X4 xDrive20i",
+   "year": 2024,
+   "keyword": "bmw",
+   "appraisal": 60000000,
+   "hammer": 45700000,
+   "hammer_ratio": 76.2,
+   "sale_date": "2026-07-15",
+   "fail_count": 1,
+   "fuel": "가솔린",
+   "first_recorded": "2026-07-18"
+  },
+  {
+   "key": "B000240|20260130501719|1",
+   "court": "인천지방법원",
+   "case_no": "2026타경501719",
+   "name": "BMW 320d xDrive",
+   "year": 2022,
+   "keyword": "bmw",
+   "appraisal": 31000000,
+   "hammer": 22890000,
+   "hammer_ratio": 73.8,
+   "sale_date": "2026-07-15",
+   "fail_count": 1,
+   "fuel": "디젤",
+   "first_recorded": "2026-07-18"
+  },
+  {
+   "key": "B000240|20260130501732|1",
+   "court": "인천지방법원",
+   "case_no": "2026타경501732",
+   "name": "BMW X5 xDrive30d",
+   "year": 2022,
+   "keyword": "bmw",
+   "appraisal": 90000000,
+   "hammer": 68450000,
+   "hammer_ratio": 76.1,
+   "sale_date": "2026-07-15",
+   "fail_count": 1,
+   "fuel": "디젤",
+   "first_recorded": "2026-07-18"
+  },
+  {
+   "key": "B000240|20260130502166|1",
+   "court": "인천지방법원",
+   "case_no": "2026타경502166",
+   "name": "BMW Z4 sDrive20i",
+   "year": 2025,
+   "keyword": "bmw",
+   "appraisal": 57000000,
+   "hammer": 57890000,
+   "hammer_ratio": 101.6,
+   "sale_date": "2026-07-15",
+   "fail_count": 0,
+   "fuel": "가솔린",
+   "first_recorded": "2026-07-18"
+  },
+  {
+   "key": "B000310|20250130009996|1",
+   "court": "대구지방법원",
+   "case_no": "2025타경9996",
+   "name": "BMW 740d xDrive",
+   "year": 2024,
+   "keyword": "bmw",
+   "appraisal": 120000000,
+   "hammer": 88888888,
+   "hammer_ratio": 74.1,
+   "sale_date": "2026-07-15",
+   "fail_count": 1,
+   "fuel": "하이브리드",
+   "first_recorded": "2026-07-18"
+  },
+  {
+   "key": "B000310|20250130010031|1",
+   "court": "대구지방법원",
+   "case_no": "2025타경10031",
+   "name": "카이엔",
+   "year": 2022,
+   "keyword": "카이엔",
+   "appraisal": 115000000,
+   "hammer": 84840000,
+   "hammer_ratio": 73.8,
+   "sale_date": "2026-07-15",
+   "fail_count": 1,
+   "fuel": "가솔린",
+   "first_recorded": "2026-07-18"
+  },
+  {
+   "key": "B000310|20250130010068|1",
+   "court": "대구지방법원",
+   "case_no": "2025타경10068",
+   "name": "BMW 320i",
+   "year": 2024,
+   "keyword": "bmw",
+   "appraisal": 45000000,
+   "hammer": 31600009,
+   "hammer_ratio": 70.2,
+   "sale_date": "2026-07-15",
+   "fail_count": 1,
+   "fuel": "가솔린",
+   "first_recorded": "2026-07-18"
+  },
+  {
+   "key": "B000310|20260130100623|1",
+   "court": "대구지방법원",
+   "case_no": "2026타경100623",
+   "name": "BMW X4 xDrive20i",
+   "year": 2023,
+   "keyword": "bmw",
+   "appraisal": 50000000,
+   "hammer": 37620000,
+   "hammer_ratio": 75.2,
+   "sale_date": "2026-07-16",
+   "fail_count": 1,
+   "fuel": "가솔린",
+   "first_recorded": "2026-07-18"
+  },
+  {
+   "key": "B214804|20260130020460|1",
+   "court": "남양주지원",
+   "case_no": "2026타경20460",
+   "name": "BMW X1 xDrive20i",
+   "year": 2022,
+   "keyword": "bmw",
+   "appraisal": 39000000,
+   "hammer": 24520000,
+   "hammer_ratio": 62.9,
+   "sale_date": "2026-07-16",
+   "fail_count": 2,
+   "fuel": null,
+   "first_recorded": "2026-07-18"
   }
  ],
  "stats": {
   "bmw": {
-   "n": 3,
-   "avg": 68.9,
-   "min": 59.2,
-   "max": 81.9
+   "n": 12,
+   "avg": 72.6,
+   "min": 54.0,
+   "max": 101.6
   },
   "그랜저": {
    "n": 3,
    "avg": 81.8,
    "min": 70.0,
    "max": 100.0
+  },
+  "a7": {
+   "n": 1,
+   "avg": 79.1,
+   "min": 79.1,
+   "max": 79.1
   },
   "Gv70": {
    "n": 1,
@@ -1000,6 +1186,12 @@
    "avg": 92.2,
    "min": 92.2,
    "max": 92.2
+  },
+  "카이엔": {
+   "n": 1,
+   "avg": 73.8,
+   "min": 73.8,
+   "max": 73.8
   }
  }
 }
