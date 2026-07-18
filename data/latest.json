@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-18 11:20 KST",
- "run_date": "2026-07-18",
+ "generated_at": "2026-07-19 06:32 KST",
+ "run_date": "2026-07-19",
  "keywords": [
   "bmw",
   "그랜저",
@@ -39,9 +39,7 @@
  "new_count": 0,
  "drop_count": 0,
  "first_run": false,
- "summary_lines": [
-  "목록 제외(매각/취하 추정) 15건"
- ],
+ "summary_lines": [],
  "items": [
   {
    "court": "강릉지원",
@@ -1351,10 +1349,12 @@
    "is_new": false
   }
  ],
- "errors": [],
+ "errors": [
+  "results: ('Connection aborted.', TimeoutError(60, 'Operation timed out'))"
+ ],
  "results_total": 19,
- "results_added": 11,
- "results_snapshot": 186,
+ "results_added": 0,
+ "results_snapshot": null,
  "stats": {
   "bmw": {
    "n": 12,
