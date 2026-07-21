@@ -23,7 +23,7 @@
   "G80": 4,
   "파나메라": 0,
   "카이엔": 0,
-  "마칸": null
+  "마칸": 0
  },
  "kw_counts": {
   "bmw": 8,
@@ -36,15 +36,10 @@
   "카이엔": 0,
   "마칸": 0
  },
- "new_count": 2,
- "drop_count": 1,
+ "new_count": 0,
+ "drop_count": 0,
  "first_run": false,
- "summary_lines": [
-  "신규 2건: BMW 320i Touring(제주지방법원), 그랜저 하이브리드(GRANDEUR HYBRID)(홍성지원)",
-  "가격 인하 1건: 그랜저(GRANDEUR)(대구서부지원) 2,100만→1,470만(-30.0%)",
-  "기일 변경 1건",
-  "목록 제외(매각/취하 추정) 4건"
- ],
+ "summary_lines": [],
  "items": [
   {
    "court": "남양주지원",
@@ -1362,9 +1357,7 @@
    ],
    "photo_count": 10,
    "detailed": true,
-   "is_new": false,
-   "prev_min_price": 21000000,
-   "drop_pct": 30.0
+   "is_new": false
   },
   {
    "court": "제주지방법원",
@@ -1436,7 +1429,7 @@
    ],
    "photo_count": 4,
    "detailed": true,
-   "is_new": true
+   "is_new": false
   },
   {
    "court": "홍성지원",
@@ -1512,14 +1505,12 @@
    ],
    "photo_count": 8,
    "detailed": true,
-   "is_new": true
+   "is_new": false
   }
  ],
- "errors": [
-  "kw=마칸: ('Connection aborted.', TimeoutError(60, 'Operation timed out'))"
- ],
+ "errors": [],
  "results_total": 20,
- "results_added": 1,
+ "results_added": 0,
  "results_snapshot": 202,
  "stats": {
   "bmw": {
