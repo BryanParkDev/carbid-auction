@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-22 14:42 KST",
- "run_date": "2026-07-22",
+ "generated_at": "2026-07-23 10:50 KST",
+ "run_date": "2026-07-23",
  "keywords": [
   "bmw",
   "그랜저",
@@ -23,7 +23,7 @@
   "G80": null,
   "파나메라": 0,
   "카이엔": 0,
-  "마칸": null
+  "마칸": 0
  },
  "kw_counts": {
   "bmw": 7,
@@ -36,92 +36,15 @@
   "카이엔": 0,
   "마칸": 0
  },
- "new_count": 1,
- "drop_count": 0,
+ "new_count": 0,
+ "drop_count": 1,
  "first_run": false,
  "summary_lines": [
-  "신규 1건: GV70(대구지방법원)",
-  "목록 제외(매각/취하 추정) 7건"
+  "가격 인하 1건: BMW 530i xDrive(대구지방법원) 5,500만→3,850만(-30.0%)",
+  "기일 변경 1건",
+  "목록 제외(매각/취하 추정) 1건"
  ],
  "items": [
-  {
-   "court": "대구지방법원",
-   "court_cd": "B000310",
-   "dept": "경매6계",
-   "tel": "053-757-6776",
-   "case_no": "2025타경9840",
-   "sa_no": "20250130009840",
-   "item_no": "1",
-   "name": "BMW 620d",
-   "maker": "BMW",
-   "year": 2023,
-   "appraisal": 60000000,
-   "min_price": 29400000,
-   "ratio": 49.0,
-   "fail_count": 2,
-   "prev_bid": null,
-   "sale_date": "2026-07-22",
-   "sale_time": "10:00",
-   "sale_place": "신관 지하2층 입찰법정",
-   "fuel": "디젤",
-   "vin": "WBAJY8102PCM66027",
-   "storage": "대구 북구 금호동 416",
-   "body_type": null,
-   "region": "광주 북구 빛고을대로 615, 113동 1401호(신용동, 힐스테이트신용더리버)",
-   "bigo": null,
-   "flags": [],
-   "reg_cnt": 58,
-   "docid": "B0003102025013000984011",
-   "key": "B000310|20250130009840|1",
-   "link": "carbid_detail.html#B000310_20250130009840_1",
-   "keyword": "bmw",
-   "deposit_rate": 10,
-   "rights": "2023.7.4. 저당권",
-   "mileage": 43633,
-   "plate": "354보1105",
-   "engine": "B47D20B",
-   "schedule": [
-    {
-     "date": "2026-05-22",
-     "price": 60000000,
-     "result": "유찰",
-     "kind": "01"
-    },
-    {
-     "date": "2026-06-23",
-     "price": 42000000,
-     "result": "유찰",
-     "kind": "01"
-    },
-    {
-     "date": "2026-07-22",
-     "price": 29400000,
-     "result": null,
-     "kind": "01"
-    },
-    {
-     "date": "2026-07-29",
-     "price": 0,
-     "result": null,
-     "kind": "02"
-    }
-   ],
-   "appraiser_summary": "색상 흰색 · 상태 보통시됩니다",
-   "inspection_until": "2027-06-29",
-   "appraiser_notes": "보험개발원 제공 ‘중고차 사고이력정보 보고서’ 첨부 참조",
-   "case_name": "자동차임의경매",
-   "claim_amt": 57614086,
-   "receipt_date": "2025-11-19",
-   "photos": [
-    "photos/B000310_20250130009840_1/01.jpg",
-    "photos/B000310_20250130009840_1/02.jpg",
-    "photos/B000310_20250130009840_1/03.jpg",
-    "photos/B000310_20250130009840_1/04.jpg"
-   ],
-   "photo_count": 4,
-   "detailed": true,
-   "is_new": false
-  },
   {
    "court": "부산서부지원",
    "court_cd": "B000414",
@@ -148,7 +71,7 @@
    "region": "김해시 함박로45번길 8, 201호(외동)",
    "bigo": "- 전반적인 내부 관리상태는 보통이나 외부상태는 앞범퍼 파손 및 일부 긁힘 등이 있음.\n- 중고차 사고이력정보 보고서상 내차 피해 2회(8,562,610원), 상대차 피해 1회(1,419,189원) 있음.\n- 그외 사항은 감정평가서 참조요함.",
    "flags": [],
-   "reg_cnt": 3,
+   "reg_cnt": 5,
    "docid": "B0004142026013010045611",
    "key": "B000414|20260130100456|1",
    "link": "carbid_detail.html#B000414_20260130100456_1",
@@ -217,7 +140,7 @@
    "region": "대구광역시 동구 방천로2길 25 202호 (불로동)",
    "bigo": null,
    "flags": [],
-   "reg_cnt": 17,
+   "reg_cnt": 18,
    "docid": "B0003102026013010044011",
    "key": "B000310|20260130100440|1",
    "link": "carbid_detail.html#B000310_20260130100440_1",
@@ -389,7 +312,7 @@
    "region": "구리시 갈매중앙로 132, 201동 1301호 (갈매동, 엘에이치이스트힐)",
    "bigo": null,
    "flags": [],
-   "reg_cnt": 24,
+   "reg_cnt": 25,
    "docid": "B0002502026013005058211",
    "key": "B000250|20260130050582|1",
    "link": "carbid_detail.html#B000250_20260130050582_1",
@@ -543,7 +466,7 @@
    "region": "전라남도 광양시 광양읍 용강로 118, 113동 502호(광양의봄선샤인)",
    "bigo": null,
    "flags": [],
-   "reg_cnt": 17,
+   "reg_cnt": 18,
    "docid": "B0005132025013005250211",
    "key": "B000513|20250130052502|1",
    "link": "carbid_detail.html#B000513_20250130052502_1",
@@ -622,7 +545,7 @@
    "region": "전북특별자치도 전주시 덕진구 사평로 1420",
    "bigo": "1.사고이력정보: 내차피해 1회(3,108,490원)\n2.관리상태: 보통\n3.주행거리: 35,755km(계기판 기준)\n4.검사유효기간: 2021.09.13.~2025.09.12.\n5.기타: 세부모델(M-Sport) 그외  감정평가서 참조",
    "flags": [],
-   "reg_cnt": 2,
+   "reg_cnt": 6,
    "docid": "B0005202026013003052611",
    "key": "B000520|20260130030526|1",
    "link": "carbid_detail.html#B000520_20260130030526_1",
@@ -776,7 +699,7 @@
    "region": "울산광역시 울주군 모두박1길 17, 202호",
    "bigo": "감정평가서에 따르면 자동차등록원부상 색상은 '회색'으로 등재되어 있으나 현황은 '검정색'임. 백미러 파손 등이 있음.",
    "flags": [],
-   "reg_cnt": 11,
+   "reg_cnt": 14,
    "docid": "B0003202026013000351511",
    "key": "B000320|20260130003515|1",
    "link": "carbid_detail.html#B000320_20260130003515_1",
@@ -925,7 +848,7 @@
    "region": "충남 홍성군 홍성읍 법원1길 12",
    "bigo": "- 2021년식, 주행거리: 126,261km\n- 검사유효기간: 2025.02.18.~2027.02.17.\n- 보관장소: 홍성군 홍북읍 봉신2길 11-89",
    "flags": [],
-   "reg_cnt": 15,
+   "reg_cnt": 19,
    "docid": "B0002812025013001614611",
    "key": "B000281|20250130016146|1",
    "link": "carbid_detail.html#B000281_20250130016146_1",
@@ -1046,27 +969,105 @@
    ],
    "photo_count": 11,
    "detailed": true,
-   "is_new": true
+   "is_new": false
+  },
+  {
+   "court": "대구지방법원",
+   "court_cd": "B000310",
+   "dept": "경매11계",
+   "tel": "053-757-6779",
+   "case_no": "2026타경100700",
+   "sa_no": "20260130100700",
+   "item_no": "1",
+   "name": "BMW 530i xDrive",
+   "maker": "BMW",
+   "year": 2023,
+   "appraisal": 55000000,
+   "min_price": 38500000,
+   "ratio": 70.0,
+   "fail_count": 1,
+   "prev_bid": null,
+   "sale_date": "2026-08-06",
+   "sale_time": "10:00",
+   "sale_place": "신관 지하2층 입찰법정",
+   "fuel": "가솔린",
+   "vin": "WBA31BJ07PCM91855",
+   "storage": "대구광역시 북구 금호동 416 오토마트 대구보관소",
+   "body_type": "승용 중형",
+   "region": "경상북도 포항시 북구 펜타시티단지로 61 106동 1301호(포항펜타시티 대방엘리움 퍼스티지I)",
+   "bigo": null,
+   "flags": [],
+   "reg_cnt": 9,
+   "docid": "B0003102026013010070011",
+   "key": "B000310|20260130100700|1",
+   "link": "carbid_detail.html#B000310_20260130100700_1",
+   "keyword": "bmw",
+   "deposit_rate": 10,
+   "rights": "2023.6.13. 근저당권",
+   "mileage": 42075,
+   "plate": "206모9761",
+   "engine": "B46B20B",
+   "schedule": [
+    {
+     "date": "2026-07-08",
+     "price": 55000000,
+     "result": "유찰",
+     "kind": "01"
+    },
+    {
+     "date": "2026-08-06",
+     "price": 38500000,
+     "result": null,
+     "kind": "01"
+    },
+    {
+     "date": "2026-08-13",
+     "price": 0,
+     "result": null,
+     "kind": "02"
+    }
+   ],
+   "appraiser_summary": "색상 본건 차량의 색상은 회색 · 상태 전반적인 관리상태나 노후도는 연식 및 주행거리 대비 보통",
+   "appraiser_notes": "가. 본건 차량은 냉.난방설비 및 오디오 등이 구비되어 있음. 나. 본건 차량은 대구광역시 북구 금호동 416번지 오토마트 대구보관소 내에 보관 중이며,      동소에서 실사하였음.",
+   "case_name": "자동차임의경매",
+   "claim_amt": 49731522,
+   "receipt_date": "2026-03-18",
+   "photos": [
+    "photos/B000310_20260130100700_1/01.jpg",
+    "photos/B000310_20260130100700_1/02.jpg",
+    "photos/B000310_20260130100700_1/03.jpg",
+    "photos/B000310_20260130100700_1/04.jpg",
+    "photos/B000310_20260130100700_1/05.jpg",
+    "photos/B000310_20260130100700_1/06.jpg",
+    "photos/B000310_20260130100700_1/07.jpg",
+    "photos/B000310_20260130100700_1/08.jpg",
+    "photos/B000310_20260130100700_1/09.jpg",
+    "photos/B000310_20260130100700_1/10.jpg",
+    "photos/B000310_20260130100700_1/11.jpg"
+   ],
+   "photo_count": 11,
+   "detailed": true,
+   "is_new": false,
+   "prev_min_price": 55000000,
+   "drop_pct": 30.0
   }
  ],
  "errors": [
-  "kw=G80: ('Connection aborted.', TimeoutError(60, 'Operation timed out'))",
-  "kw=마칸: HTTPSConnectionPool(host='www.courtauction.go.kr', port=443): Read timed out. (read timeout=40)",
-  "results: ('Connection aborted.', TimeoutError(60, 'Operation timed out'))"
+  "kw=G80: ('Connection aborted.', TimeoutError(60, 'Operation timed out'))"
  ],
- "results_total": 20,
- "results_added": 0,
- "results_snapshot": null,
+ "results_total": 23,
+ "results_added": 3,
+ "results_snapshot": 186,
  "stats": {
   "bmw": {
-   "n": 12,
-   "avg": 72.6,
+   "n": 13,
+   "avg": 72.3,
    "min": 54.0,
    "max": 101.6
   },
   "그랜저": {
-   "n": 3,
-   "avg": 81.8,
+   "n": 4,
+   "avg": 79.8,
    "min": 70.0,
    "max": 100.0
   },
@@ -1077,10 +1078,10 @@
    "max": 79.1
   },
   "Gv70": {
-   "n": 1,
-   "avg": 80.1,
+   "n": 2,
+   "avg": 85.4,
    "min": 80.1,
-   "max": 80.1
+   "max": 90.7
   },
   "G80": {
    "n": 2,
@@ -1096,6 +1097,51 @@
   }
  },
  "recent_results": [
+  {
+   "key": "B000310|20250130009840|1",
+   "court": "대구지방법원",
+   "case_no": "2025타경9840",
+   "name": "BMW 620d",
+   "year": 2023,
+   "keyword": "bmw",
+   "appraisal": 60000000,
+   "hammer": 41200000,
+   "hammer_ratio": 68.7,
+   "sale_date": "2026-07-22",
+   "fail_count": 2,
+   "fuel": "디젤",
+   "first_recorded": "2026-07-23"
+  },
+  {
+   "key": "B000253|20260130050259|1",
+   "court": "평택지원",
+   "case_no": "2026타경50259",
+   "name": "GV70",
+   "year": 2021,
+   "keyword": "Gv70",
+   "appraisal": 37000000,
+   "hammer": 33555555,
+   "hammer_ratio": 90.7,
+   "sale_date": "2026-07-21",
+   "fail_count": 1,
+   "fuel": "가솔린",
+   "first_recorded": "2026-07-23"
+  },
+  {
+   "key": "B000530|20260130000088|1",
+   "court": "제주지방법원",
+   "case_no": "2026타경88",
+   "name": "그랜저(GRANDEUR)",
+   "year": 2023,
+   "keyword": "그랜저",
+   "appraisal": 30000000,
+   "hammer": 22200000,
+   "hammer_ratio": 74.0,
+   "sale_date": "2026-07-21",
+   "fail_count": 1,
+   "fuel": "LPG",
+   "first_recorded": "2026-07-23"
+  },
   {
    "key": "B000261|20260130050001|1",
    "court": "강릉지원",
@@ -1350,51 +1396,6 @@
    "fail_count": 1,
    "fuel": "가솔린",
    "first_recorded": "2026-07-11"
-  },
-  {
-   "key": "B000250|20250130057827|1",
-   "court": "수원지방법원",
-   "case_no": "2025타경57827",
-   "name": "GV70",
-   "year": 2021,
-   "keyword": "Gv70",
-   "appraisal": 33000000,
-   "hammer": 26420000,
-   "hammer_ratio": 80.1,
-   "sale_date": "2026-07-06",
-   "fail_count": 1,
-   "fuel": "가솔린",
-   "first_recorded": "2026-07-07"
-  },
-  {
-   "key": "B214807|20260130060013|1",
-   "court": "고양지원",
-   "case_no": "2026타경60013",
-   "name": "BMW 520i",
-   "year": 2024,
-   "keyword": "bmw",
-   "appraisal": 55000000,
-   "hammer": 45050000,
-   "hammer_ratio": 81.9,
-   "sale_date": "2026-07-01",
-   "fail_count": 1,
-   "fuel": "하이브리드",
-   "first_recorded": "2026-07-06"
-  },
-  {
-   "key": "B000214|20250130073668|1",
-   "court": "의정부지방법원",
-   "case_no": "2025타경73668",
-   "name": "그랜저 하이브리드",
-   "year": 2020,
-   "keyword": "그랜저",
-   "appraisal": 22000000,
-   "hammer": 16569000,
-   "hammer_ratio": 75.3,
-   "sale_date": "2026-06-30",
-   "fail_count": 1,
-   "fuel": "하이브리드",
-   "first_recorded": "2026-07-06"
   }
  ]
 }
