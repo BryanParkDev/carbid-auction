@@ -208,7 +208,7 @@
     }
    ],
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-23",
+   "last_seen": "2026-07-24",
    "active": true,
    "name": "BMW X3 xDrive30e",
    "court": "평택지원",
@@ -294,7 +294,7 @@
     }
    ],
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-23",
+   "last_seen": "2026-07-24",
    "active": true,
    "name": "BMW 530i xDrive",
    "court": "대구지방법원",
@@ -508,7 +508,7 @@
     }
    ],
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-23",
+   "last_seen": "2026-07-24",
    "active": true,
    "name": "그랜저(GRANDEUR)",
    "court": "대구서부지원",
@@ -764,7 +764,7 @@
     }
    ],
    "first_seen": "2026-07-11",
-   "last_seen": "2026-07-23",
+   "last_seen": "2026-07-24",
    "active": true,
    "name": "BMW X6 M Competition",
    "court": "수원지방법원"
@@ -796,9 +796,10 @@
    ],
    "first_seen": "2026-07-11",
    "last_seen": "2026-07-23",
-   "active": true,
+   "active": false,
    "name": "BMW 220i Gran Coupe",
-   "court": "부산서부지원"
+   "court": "부산서부지원",
+   "gone_date": "2026-07-24"
   },
   "B000250|20260130050582|1": {
    "snapshots": [
@@ -810,7 +811,7 @@
     }
    ],
    "first_seen": "2026-07-11",
-   "last_seen": "2026-07-23",
+   "last_seen": "2026-07-24",
    "active": true,
    "name": "그랜저(GRANDEUR)",
    "court": "수원지방법원"
@@ -825,7 +826,7 @@
     }
    ],
    "first_seen": "2026-07-11",
-   "last_seen": "2026-07-23",
+   "last_seen": "2026-07-24",
    "active": true,
    "name": "그랜저(GRANDEUR)",
    "court": "대구지방법원"
@@ -856,7 +857,7 @@
     }
    ],
    "first_seen": "2026-07-13",
-   "last_seen": "2026-07-23",
+   "last_seen": "2026-07-24",
    "active": true,
    "name": "BMW 523d",
    "court": "순천지원"
@@ -871,7 +872,7 @@
     }
    ],
    "first_seen": "2026-07-13",
-   "last_seen": "2026-07-23",
+   "last_seen": "2026-07-24",
    "active": true,
    "name": "그랜저",
    "court": "남원지원"
@@ -886,8 +887,8 @@
     }
    ],
    "first_seen": "2026-07-15",
-   "last_seen": "2026-07-21",
-   "active": false,
+   "last_seen": "2026-07-24",
+   "active": true,
    "name": "G80",
    "court": "천안지원",
    "gone_date": "2026-07-22"
@@ -902,7 +903,7 @@
     }
    ],
    "first_seen": "2026-07-20",
-   "last_seen": "2026-07-23",
+   "last_seen": "2026-07-24",
    "active": true,
    "name": "BMW X3 xDrive20i",
    "court": "전주지방법원"
@@ -917,8 +918,8 @@
     }
    ],
    "first_seen": "2026-07-20",
-   "last_seen": "2026-07-21",
-   "active": false,
+   "last_seen": "2026-07-24",
+   "active": true,
    "name": "G80",
    "court": "춘천지방법원",
    "gone_date": "2026-07-22"
@@ -933,7 +934,7 @@
     }
    ],
    "first_seen": "2026-07-21",
-   "last_seen": "2026-07-23",
+   "last_seen": "2026-07-24",
    "active": true,
    "name": "BMW 320i Touring",
    "court": "제주지방법원"
@@ -948,7 +949,7 @@
     }
    ],
    "first_seen": "2026-07-21",
-   "last_seen": "2026-07-23",
+   "last_seen": "2026-07-24",
    "active": true,
    "name": "그랜저 하이브리드(GRANDEUR HYBRID)",
    "court": "홍성지원"
@@ -963,13 +964,13 @@
     }
    ],
    "first_seen": "2026-07-22",
-   "last_seen": "2026-07-23",
+   "last_seen": "2026-07-24",
    "active": true,
    "name": "GV70",
    "court": "대구지방법원"
   }
  },
- "updated": "2026-07-23",
+ "updated": "2026-07-24",
  "results": [
   {
    "key": "B000214|20250130073668|1",
