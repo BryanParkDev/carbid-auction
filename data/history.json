@@ -208,7 +208,7 @@
     }
    ],
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-26",
    "active": true,
    "name": "BMW X3 xDrive30e",
    "court": "평택지원",
@@ -294,7 +294,7 @@
     }
    ],
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-26",
    "active": true,
    "name": "BMW 530i xDrive",
    "court": "대구지방법원",
@@ -508,7 +508,7 @@
     }
    ],
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-26",
    "active": true,
    "name": "그랜저(GRANDEUR)",
    "court": "대구서부지원",
@@ -765,9 +765,10 @@
    ],
    "first_seen": "2026-07-11",
    "last_seen": "2026-07-24",
-   "active": true,
+   "active": false,
    "name": "BMW X6 M Competition",
-   "court": "수원지방법원"
+   "court": "수원지방법원",
+   "gone_date": "2026-07-26"
   },
   "B000310|20250130009840|1": {
    "snapshots": [
@@ -812,9 +813,10 @@
    ],
    "first_seen": "2026-07-11",
    "last_seen": "2026-07-24",
-   "active": true,
+   "active": false,
    "name": "그랜저(GRANDEUR)",
-   "court": "수원지방법원"
+   "court": "수원지방법원",
+   "gone_date": "2026-07-26"
   },
   "B000310|20260130100440|1": {
    "snapshots": [
@@ -827,9 +829,10 @@
    ],
    "first_seen": "2026-07-11",
    "last_seen": "2026-07-24",
-   "active": true,
+   "active": false,
    "name": "그랜저(GRANDEUR)",
-   "court": "대구지방법원"
+   "court": "대구지방법원",
+   "gone_date": "2026-07-26"
   },
   "B000212|20260130004274|1": {
    "snapshots": [
@@ -857,7 +860,7 @@
     }
    ],
    "first_seen": "2026-07-13",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-26",
    "active": true,
    "name": "BMW 523d",
    "court": "순천지원"
@@ -872,7 +875,7 @@
     }
    ],
    "first_seen": "2026-07-13",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-26",
    "active": true,
    "name": "그랜저",
    "court": "남원지원"
@@ -887,7 +890,7 @@
     }
    ],
    "first_seen": "2026-07-15",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-26",
    "active": true,
    "name": "G80",
    "court": "천안지원",
@@ -903,7 +906,7 @@
     }
    ],
    "first_seen": "2026-07-20",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-26",
    "active": true,
    "name": "BMW X3 xDrive20i",
    "court": "전주지방법원"
@@ -918,7 +921,7 @@
     }
    ],
    "first_seen": "2026-07-20",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-26",
    "active": true,
    "name": "G80",
    "court": "춘천지방법원",
@@ -934,7 +937,7 @@
     }
    ],
    "first_seen": "2026-07-21",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-26",
    "active": true,
    "name": "BMW 320i Touring",
    "court": "제주지방법원"
@@ -949,7 +952,7 @@
     }
    ],
    "first_seen": "2026-07-21",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-26",
    "active": true,
    "name": "그랜저 하이브리드(GRANDEUR HYBRID)",
    "court": "홍성지원"
@@ -964,13 +967,13 @@
     }
    ],
    "first_seen": "2026-07-22",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-26",
    "active": true,
    "name": "GV70",
    "court": "대구지방법원"
   }
  },
- "updated": "2026-07-24",
+ "updated": "2026-07-26",
  "results": [
   {
    "key": "B000214|20250130073668|1",
@@ -1316,17 +1319,62 @@
    "fail_count": 1,
    "fuel": "LPG",
    "first_recorded": "2026-07-23"
+  },
+  {
+   "key": "B000250|20260130050582|1",
+   "court": "수원지방법원",
+   "case_no": "2026타경50582",
+   "name": "그랜저(GRANDEUR)",
+   "year": 2020,
+   "keyword": "그랜저",
+   "appraisal": 23000000,
+   "hammer": 19390000,
+   "hammer_ratio": 84.3,
+   "sale_date": "2026-07-24",
+   "fail_count": 1,
+   "fuel": "LPG",
+   "first_recorded": "2026-07-26"
+  },
+  {
+   "key": "B000250|20260130051085|1",
+   "court": "수원지방법원",
+   "case_no": "2026타경51085",
+   "name": "BMW X6 M Competition",
+   "year": 2021,
+   "keyword": "bmw",
+   "appraisal": 90000000,
+   "hammer": 67789000,
+   "hammer_ratio": 75.3,
+   "sale_date": "2026-07-24",
+   "fail_count": 1,
+   "fuel": "가솔린",
+   "first_recorded": "2026-07-26"
+  },
+  {
+   "key": "B000310|20260130100440|1",
+   "court": "대구지방법원",
+   "case_no": "2026타경100440",
+   "name": "그랜저(GRANDEUR)",
+   "year": 2020,
+   "keyword": "그랜저",
+   "appraisal": 21000000,
+   "hammer": 15780000,
+   "hammer_ratio": 75.1,
+   "sale_date": "2026-07-24",
+   "fail_count": 1,
+   "fuel": "가솔린",
+   "first_recorded": "2026-07-26"
   }
  ],
  "stats": {
   "bmw": {
-   "n": 13,
-   "avg": 72.3,
+   "n": 14,
+   "avg": 72.5,
    "min": 54.0,
    "max": 101.6
   },
   "그랜저": {
-   "n": 4,
+   "n": 6,
    "avg": 79.8,
    "min": 70.0,
    "max": 100.0
