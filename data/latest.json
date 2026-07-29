@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-29 09:47 KST",
+ "generated_at": "2026-07-29 10:26 KST",
  "run_date": "2026-07-29",
  "keywords": [
   "bmw",
@@ -36,14 +36,10 @@
   "카이엔": 0,
   "마칸": 0
  },
- "new_count": 2,
- "drop_count": 1,
+ "new_count": 0,
+ "drop_count": 0,
  "first_run": false,
- "summary_lines": [
-  "신규 2건: 그랜저(수원지방법원), 그랜저(광주지방법원)",
-  "가격 인하 1건: 그랜저(GRANDEUR)(고양지원) 2,500만→1,750만(-30.0%)",
-  "기일 변경 1건"
- ],
+ "summary_lines": [],
  "items": [
   {
    "court": "전주지방법원",
@@ -58,14 +54,14 @@
    "year": 2021,
    "appraisal": 42000000,
    "min_price": 42000000,
-   "ratio": 100,
+   "ratio": 100.0,
    "fail_count": 0,
    "prev_bid": null,
    "sale_date": "2026-08-03",
    "sale_time": "10:00",
-   "sale_place": "신청사제101호법정",
+   "sale_place": "신청사 제101호 법정",
    "fuel": "가솔린",
-   "vin": null,
+   "vin": "WBA51BG01M9H50979",
    "storage": "전주시 덕진구 사평로 17, 양지주차장(063-271-1323)",
    "body_type": null,
    "region": "전북특별자치도 전주시 덕진구 사평로 1420",
@@ -76,6 +72,45 @@
    "key": "B000520|20260130030526|1",
    "link": "carbid_detail.html#B000520_20260130030526_1",
    "keyword": "bmw",
+   "deposit_rate": 10,
+   "rights": "2021.09.13. 저당권",
+   "mileage": 35755,
+   "plate": "108루9904",
+   "engine": "B46B20B",
+   "schedule": [
+    {
+     "date": "2026-08-03",
+     "price": 42000000,
+     "result": null,
+     "kind": "01"
+    },
+    {
+     "date": "2026-08-10",
+     "price": 0,
+     "result": null,
+     "kind": "02"
+    }
+   ],
+   "appraiser_summary": "색상 - 검정색 · 상태 - 전반적인 관리상태는 보통",
+   "appraiser_notes": "- 차량세부모델 : M Sport - 자동변속기, 네비게이션, 썬루프, 후방카메라, 헤드업디스플레이 등",
+   "case_name": "자동차강제경매",
+   "claim_amt": 29586055,
+   "receipt_date": "2026-05-27",
+   "photos": [
+    "photos/B000520_20260130030526_1/01.jpg",
+    "photos/B000520_20260130030526_1/02.jpg",
+    "photos/B000520_20260130030526_1/03.jpg",
+    "photos/B000520_20260130030526_1/04.jpg",
+    "photos/B000520_20260130030526_1/05.jpg",
+    "photos/B000520_20260130030526_1/06.jpg",
+    "photos/B000520_20260130030526_1/07.jpg",
+    "photos/B000520_20260130030526_1/08.jpg",
+    "photos/B000520_20260130030526_1/09.jpg",
+    "photos/B000520_20260130030526_1/10.jpg",
+    "photos/B000520_20260130030526_1/11.jpg"
+   ],
+   "photo_count": 11,
+   "detailed": true,
    "is_new": false
   },
   {
@@ -535,12 +570,12 @@
    "year": 2023,
    "appraisal": 55000000,
    "min_price": 38500000,
-   "ratio": 70,
+   "ratio": 70.0,
    "fail_count": 1,
    "prev_bid": null,
    "sale_date": "2026-08-06",
    "sale_time": "10:00",
-   "sale_place": "신관지하2층입찰법정",
+   "sale_place": "신관 지하2층 입찰법정",
    "fuel": "가솔린",
    "vin": "WBA31BJ07PCM91855",
    "storage": "대구광역시 북구 금호동 416 오토마트 대구보관소",
@@ -553,6 +588,51 @@
    "key": "B000310|20260130100700|1",
    "link": "carbid_detail.html#B000310_20260130100700_1",
    "keyword": "bmw",
+   "deposit_rate": 10,
+   "rights": "2023.6.13. 근저당권",
+   "mileage": 42075,
+   "plate": "206모9761",
+   "engine": "B46B20B",
+   "schedule": [
+    {
+     "date": "2026-07-08",
+     "price": 55000000,
+     "result": "유찰",
+     "kind": "01"
+    },
+    {
+     "date": "2026-08-06",
+     "price": 38500000,
+     "result": null,
+     "kind": "01"
+    },
+    {
+     "date": "2026-08-13",
+     "price": 0,
+     "result": null,
+     "kind": "02"
+    }
+   ],
+   "appraiser_summary": "색상 본건 차량의 색상은 회색 · 상태 전반적인 관리상태나 노후도는 연식 및 주행거리 대비 보통",
+   "appraiser_notes": "가. 본건 차량은 냉.난방설비 및 오디오 등이 구비되어 있음. 나. 본건 차량은 대구광역시 북구 금호동 416번지 오토마트 대구보관소 내에 보관 중이며,      동소에서 실사하였음.",
+   "case_name": "자동차임의경매",
+   "claim_amt": 49731522,
+   "receipt_date": "2026-03-18",
+   "photos": [
+    "photos/B000310_20260130100700_1/01.jpg",
+    "photos/B000310_20260130100700_1/02.jpg",
+    "photos/B000310_20260130100700_1/03.jpg",
+    "photos/B000310_20260130100700_1/04.jpg",
+    "photos/B000310_20260130100700_1/05.jpg",
+    "photos/B000310_20260130100700_1/06.jpg",
+    "photos/B000310_20260130100700_1/07.jpg",
+    "photos/B000310_20260130100700_1/08.jpg",
+    "photos/B000310_20260130100700_1/09.jpg",
+    "photos/B000310_20260130100700_1/10.jpg",
+    "photos/B000310_20260130100700_1/11.jpg"
+   ],
+   "photo_count": 11,
+   "detailed": true,
    "is_new": false
   },
   {
@@ -972,12 +1052,12 @@
    "year": 2021,
    "appraisal": 50000000,
    "min_price": 35000000,
-   "ratio": 70,
+   "ratio": 70.0,
    "fail_count": 1,
    "prev_bid": null,
    "sale_date": "2026-08-10",
    "sale_time": "10:00",
-   "sale_place": "제101호법정",
+   "sale_place": "제101호 법정",
    "fuel": "가솔린",
    "vin": "WBA2V9101M9G38501",
    "storage": "전주시 덕진구 사평로 17 양지주차장",
@@ -990,6 +1070,51 @@
    "key": "B000520|20260130030185|1",
    "link": "carbid_detail.html#B000520_20260130030185_1",
    "keyword": "bmw",
+   "deposit_rate": 10,
+   "rights": "2025.09.11. 저당권",
+   "mileage": 18106,
+   "plate": "198저7857",
+   "engine": "B46B20B",
+   "schedule": [
+    {
+     "date": "2026-06-22",
+     "price": 50000000,
+     "result": "유찰",
+     "kind": "01"
+    },
+    {
+     "date": "2026-08-10",
+     "price": 35000000,
+     "result": null,
+     "kind": "01"
+    },
+    {
+     "date": "2026-08-18",
+     "price": 0,
+     "result": null,
+     "kind": "02"
+    }
+   ],
+   "appraiser_summary": "색상 검정 · 상태 차체형상은 세단(승용차)이며, 외견상 특별한 하자는 없으며 관리현상 비교적 무난함",
+   "inspection_until": "2027-06-24",
+   "appraiser_notes": "제동잠금방지장치, 자동비상제동장치, 주차조향제동지원, 후측방경고장치, 차체자세제어장치 , 차선이탈경고장치, 주차전후방센서, 어라운드뷰, 긴급제동경고장치, 후방카메라(BCAM), 전 방충돌경고장치, 차선이탈보조장치, 주차조향보조장치, 적응형순항제어장치, 가변형 전조등, 제동보조시스템, 주간 주행등, 헤드업디스플레이, 타이어공기압경보장치, 주차후방센서 등이 장착되어 있으며 각종 성능 정상으로 판단됨.",
+   "case_name": "자동차임의경매",
+   "claim_amt": 43885394,
+   "receipt_date": "2026-02-23",
+   "photos": [
+    "photos/B000520_20260130030185_1/01.jpg",
+    "photos/B000520_20260130030185_1/02.jpg",
+    "photos/B000520_20260130030185_1/03.jpg",
+    "photos/B000520_20260130030185_1/04.jpg",
+    "photos/B000520_20260130030185_1/05.jpg",
+    "photos/B000520_20260130030185_1/06.jpg",
+    "photos/B000520_20260130030185_1/07.jpg",
+    "photos/B000520_20260130030185_1/08.jpg",
+    "photos/B000520_20260130030185_1/09.jpg",
+    "photos/B000520_20260130030185_1/10.jpg"
+   ],
+   "photo_count": 10,
+   "detailed": true,
    "is_new": false
   },
   {
@@ -1005,12 +1130,12 @@
    "year": 2023,
    "appraisal": 45000000,
    "min_price": 31500000,
-   "ratio": 70,
+   "ratio": 70.0,
    "fail_count": 1,
    "prev_bid": null,
    "sale_date": "2026-08-10",
    "sale_time": "10:00",
-   "sale_place": "2층210호경매법정",
+   "sale_place": "2층 210호 경매법정",
    "fuel": "가솔린",
    "vin": "WBA71BH09PWY26278",
    "storage": "통영시 용남면 동달안길 33 그린자동차보관주차장",
@@ -1023,6 +1148,46 @@
    "key": "B000422|20260130010252|1",
    "link": "carbid_detail.html#B000422_20260130010252_1",
    "keyword": "bmw",
+   "deposit_rate": 10,
+   "rights": "2023.7.27.[근저당권]",
+   "mileage": 34725,
+   "plate": "242구8873",
+   "engine": "B46B20B",
+   "schedule": [
+    {
+     "date": "2026-06-01",
+     "price": 45000000,
+     "result": "유찰",
+     "kind": "01"
+    },
+    {
+     "date": "2026-08-10",
+     "price": 31500000,
+     "result": null,
+     "kind": "01"
+    },
+    {
+     "date": "2026-08-18",
+     "price": 0,
+     "result": null,
+     "kind": "02"
+    }
+   ],
+   "appraiser_summary": "색상 흰색 · 상태 차량의 제반 현상 및 관리상태는 보통시 되나, 범퍼 등에 다수의 흠집이 확인되는바, 입찰시 재확인이 요망됨",
+   "appraiser_notes": "본건 차량의 사고 유무 등은 후첨 '중고차 사고이력정보 보고서' 참조 바라며, 차량의 옵션(네비게이션, 메모리시트, 썬루프 등) 및 관리상태 여부 등은 경매 진행시 재확인 하시기 바람.",
+   "case_name": "자동차임의경매",
+   "claim_amt": 49103220,
+   "receipt_date": "2026-03-11",
+   "photos": [
+    "photos/B000422_20260130010252_1/01.jpg",
+    "photos/B000422_20260130010252_1/02.jpg",
+    "photos/B000422_20260130010252_1/03.jpg",
+    "photos/B000422_20260130010252_1/04.jpg",
+    "photos/B000422_20260130010252_1/05.jpg",
+    "photos/B000422_20260130010252_1/06.jpg"
+   ],
+   "photo_count": 6,
+   "detailed": true,
    "is_new": false
   },
   {
@@ -1331,9 +1496,7 @@
    ],
    "photo_count": 12,
    "detailed": true,
-   "is_new": false,
-   "prev_min_price": 25000000,
-   "drop_pct": 30.0
+   "is_new": false
   },
   {
    "court": "광주지방법원",
@@ -1402,7 +1565,7 @@
    ],
    "photo_count": 7,
    "detailed": true,
-   "is_new": true
+   "is_new": false
   },
   {
    "court": "수원지방법원",
@@ -1472,17 +1635,12 @@
    ],
    "photo_count": 9,
    "detailed": true,
-   "is_new": true
+   "is_new": false
   }
  ],
- "errors": [
-  "detail 2026타경100700: HTTPSConnectionPool(host='www.courtauction.go.kr', port=443): Max retries exceeded with url: /pgj/pgj15B/selectAuctnCsSr",
-  "detail 2026타경10252: HTTPSConnectionPool(host='www.courtauction.go.kr', port=443): Max retries exceeded with url: /pgj/pgj15B/selectAuctnCsSr",
-  "detail 2026타경30185: HTTPSConnectionPool(host='www.courtauction.go.kr', port=443): Max retries exceeded with url: /pgj/pgj15B/selectAuctnCsSr",
-  "detail 2026타경30526: HTTPSConnectionPool(host='www.courtauction.go.kr', port=443): Max retries exceeded with url: /pgj/pgj15B/selectAuctnCsSr"
- ],
+ "errors": [],
  "results_total": 27,
- "results_added": 1,
+ "results_added": 0,
  "results_snapshot": 136,
  "stats": {
   "bmw": {

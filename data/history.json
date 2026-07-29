@@ -84,7 +84,8 @@
    "active": true,
    "name": "BMW 320d Touring",
    "court": "인천지방법원",
-   "gone_date": "2026-07-11"
+   "gone_date": "2026-07-11",
+   "mileage": 128394
   },
   "B000240|20260130501708|1": {
    "snapshots": [
@@ -154,7 +155,8 @@
    "active": true,
    "name": "BMW 520i",
    "court": "인천지방법원",
-   "gone_date": "2026-07-11"
+   "gone_date": "2026-07-11",
+   "mileage": 35994
   },
   "B000240|20260130502166|1": {
    "snapshots": [
@@ -224,7 +226,8 @@
    "active": true,
    "name": "BMW X3 xDrive30e",
    "court": "평택지원",
-   "gone_date": "2026-07-07"
+   "gone_date": "2026-07-07",
+   "mileage": 83198
   },
   "B000310|20250130009996|1": {
    "snapshots": [
@@ -310,7 +313,8 @@
    "active": true,
    "name": "BMW 530i xDrive",
    "court": "대구지방법원",
-   "gone_date": "2026-07-11"
+   "gone_date": "2026-07-11",
+   "mileage": 42075
   },
   "B000310|20260130101062|1": {
    "snapshots": [
@@ -492,7 +496,8 @@
    "active": true,
    "name": "그랜저(GRANDEUR)",
    "court": "대전지방법원",
-   "gone_date": "2026-07-07"
+   "gone_date": "2026-07-07",
+   "mileage": 67206
   },
   "B000320|20260130003243|1": {
    "snapshots": [
@@ -530,7 +535,8 @@
    "active": true,
    "name": "그랜저(GRANDEUR)",
    "court": "대구서부지원",
-   "gone_date": "2026-07-11"
+   "gone_date": "2026-07-11",
+   "mileage": 97997
   },
   "B000513|20260130050423|1": {
    "snapshots": [
@@ -568,7 +574,8 @@
    "active": true,
    "name": "그랜저(GRANDEUR)",
    "court": "고양지원",
-   "gone_date": "2026-07-11"
+   "gone_date": "2026-07-11",
+   "mileage": 80314
   },
   "B000240|20260130500365|1": {
    "snapshots": [
@@ -638,7 +645,8 @@
    "active": true,
    "name": "GV70",
    "court": "고양지원",
-   "gone_date": "2026-07-11"
+   "gone_date": "2026-07-11",
+   "mileage": 43279
   },
   "B000211|20250130051716|1": {
    "snapshots": [
@@ -676,7 +684,8 @@
    "active": true,
    "name": "G80",
    "court": "인천지방법원",
-   "gone_date": "2026-07-11"
+   "gone_date": "2026-07-11",
+   "mileage": 57317
   },
   "B000261|20260130050001|1": {
    "snapshots": [
@@ -947,7 +956,8 @@
    "last_seen": "2026-07-29",
    "active": true,
    "name": "BMW X3 xDrive20i",
-   "court": "전주지방법원"
+   "court": "전주지방법원",
+   "mileage": 35755
   },
   "B000260|20260130050259|1": {
    "snapshots": [
@@ -963,7 +973,8 @@
    "active": true,
    "name": "G80",
    "court": "춘천지방법원",
-   "gone_date": "2026-07-22"
+   "gone_date": "2026-07-22",
+   "mileage": 87362
   },
   "B000530|20250130008380|1": {
    "snapshots": [
@@ -978,7 +989,8 @@
    "last_seen": "2026-07-29",
    "active": true,
    "name": "BMW 320i Touring",
-   "court": "제주지방법원"
+   "court": "제주지방법원",
+   "mileage": 29659
   },
   "B000281|20250130016146|1": {
    "snapshots": [
@@ -993,7 +1005,8 @@
    "last_seen": "2026-07-29",
    "active": true,
    "name": "그랜저 하이브리드(GRANDEUR HYBRID)",
-   "court": "홍성지원"
+   "court": "홍성지원",
+   "mileage": 126261
   },
   "B000310|20260130100920|1": {
    "snapshots": [
@@ -1008,7 +1021,8 @@
    "last_seen": "2026-07-29",
    "active": true,
    "name": "GV70",
-   "court": "대구지방법원"
+   "court": "대구지방법원",
+   "mileage": 158409
   },
   "B000422|20260130010252|1": {
    "snapshots": [
@@ -1023,7 +1037,8 @@
    "last_seen": "2026-07-29",
    "active": true,
    "name": "BMW 530i",
-   "court": "통영지원"
+   "court": "통영지원",
+   "mileage": 34725
   },
   "B000520|20260130030185|1": {
    "snapshots": [
@@ -1038,7 +1053,8 @@
    "last_seen": "2026-07-29",
    "active": true,
    "name": "BMW X4 xDrive20i",
-   "court": "전주지방법원"
+   "court": "전주지방법원",
+   "mileage": 18106
   },
   "B000513|20260130050162|1": {
    "snapshots": [
@@ -1053,7 +1069,8 @@
    "last_seen": "2026-07-29",
    "active": true,
    "name": "G80",
-   "court": "순천지원"
+   "court": "순천지원",
+   "mileage": 138384
   },
   "B214807|20260130061146|1": {
    "snapshots": [
@@ -1068,7 +1085,8 @@
    "last_seen": "2026-07-29",
    "active": true,
    "name": "BMW 530i xDrive",
-   "court": "고양지원"
+   "court": "고양지원",
+   "mileage": 28761
   },
   "B000250|20250130001830|1": {
    "snapshots": [
@@ -1083,7 +1101,8 @@
    "last_seen": "2026-07-29",
    "active": true,
    "name": "G80",
-   "court": "수원지방법원"
+   "court": "수원지방법원",
+   "mileage": 54945
   },
   "B000250|20260130050316|1": {
    "snapshots": [
@@ -1098,7 +1117,8 @@
    "last_seen": "2026-07-29",
    "active": true,
    "name": "그랜저",
-   "court": "수원지방법원"
+   "court": "수원지방법원",
+   "mileage": 67044
   },
   "B000510|20260130030903|1": {
    "snapshots": [
@@ -1113,7 +1133,8 @@
    "last_seen": "2026-07-29",
    "active": true,
    "name": "그랜저",
-   "court": "광주지방법원"
+   "court": "광주지방법원",
+   "mileage": 133846
   }
  },
  "updated": "2026-07-29",

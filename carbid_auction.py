@@ -610,16 +610,25 @@ def merge_results(hist, results, run_date):
     for it in results:
         if it["key"] in known:
             continue
+        # 낙찰건은 상세가 닫혀 주행거리가 안 나옴 → 진행 중 수집해둔 값을 이력에서 가져옴
+        mileage = it.get("mileage") or (hist["items"].get(it["key"]) or {}).get("mileage")
         hist["results"].append({
             "key": it["key"], "court": it["court"], "case_no": it["case_no"],
             "name": it["name"], "year": it["year"], "keyword": it["keyword"],
             "appraisal": it["appraisal"], "hammer": it["hammer"],
             "hammer_ratio": it["hammer_ratio"], "sale_date": it["sale_date"],
             "fail_count": it["fail_count"], "fuel": it.get("fuel"),
+            "mileage": mileage,
             "first_recorded": run_date,
         })
         known.add(it["key"])
         added += 1
+    # 기존 낙찰건 중 주행거리 비어있는 것도 이력에 값이 생기면 소급 반영
+    for r in hist["results"]:
+        if r.get("mileage") is None:
+            m = (hist["items"].get(r.get("key")) or {}).get("mileage")
+            if m is not None:
+                r["mileage"] = m
     return added
 
 
@@ -667,12 +676,16 @@ def apply_diff(hist, items, run_date):
         if h is None:
             hist["items"][k] = {"snapshots": [snap], "first_seen": run_date,
                                 "last_seen": run_date, "active": True,
-                                "name": it.get("name"), "court": it.get("court")}
+                                "name": it.get("name"), "court": it.get("court"),
+                                "mileage": it.get("mileage"), "year": it.get("year")}
             it["is_new"] = not first_run     # 최초 수집에선 NEW 배지 생략(노이즈 방지)
             if not first_run:
                 ch["new"].append(k)
             continue
         it["is_new"] = False
+        # 진행 중일 때 잡은 주행거리를 이력에 보존(낙찰되면 낙찰 DB로 이어붙임)
+        if it.get("mileage") is not None:
+            h["mileage"] = it.get("mileage")
         last = h["snapshots"][-1]
         if it.get("min_price") and last.get("min_price") and it["min_price"] < last["min_price"]:
             it["prev_min_price"] = last["min_price"]
@@ -924,8 +937,8 @@ TEMPLATE = r"""<!DOCTYPE html>
   <h2>낙찰 DB — 최근 매각결과</h2>
   <div class="rsub" id="rsub"></div>
   <div class="rstat" id="rstat"></div>
-  <table style="min-width:820px"><thead><tr>
-   <th>차명</th><th class="num">연식</th><th>법원</th><th>사건번호</th>
+  <table style="min-width:900px"><thead><tr>
+   <th>차명</th><th class="num">연식</th><th class="num">주행거리</th><th>법원</th><th>사건번호</th>
    <th class="num">감정가</th><th class="num">낙찰가</th><th class="num">낙찰가율</th>
    <th class="num">유찰</th><th>매각일</th>
   </tr></thead><tbody id="rtb"></tbody></table>
@@ -1033,6 +1046,7 @@ if(rr.length||(D.results_total||0)>0){
  document.getElementById('rtb').innerHTML=rr.map(r=>`<tr>
    <td class="car">${r.name||'—'}${r.fuel?`<div class="muted">${r.fuel}</div>`:''}</td>
    <td class="num">${r.year||'—'}</td>
+   <td class="num">${r.mileage!=null?km(r.mileage):'—'}</td>
    <td>${r.court||'—'}</td>
    <td>${r.case_no||'—'}</td>
    <td class="num">${won(r.appraisal)}</td>
