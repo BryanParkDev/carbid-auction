@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-17 12:21 KST",
- "run_date": "2026-08-17",
+ "generated_at": "2026-08-18 08:41 KST",
+ "run_date": "2026-08-18",
  "keywords": [
   "bmw",
   "그랜저",
@@ -13,13 +13,13 @@
   "마칸"
  ],
  "year_min": 2020,
- "count": 29,
+ "count": 31,
  "totals": {
   "bmw": 11,
-  "그랜저": 10,
+  "그랜저": 12,
   "a7": 0,
   "G70": 0,
-  "Gv70": 0,
+  "Gv70": null,
   "G80": 7,
   "파나메라": 0,
   "카이엔": 1,
@@ -27,7 +27,7 @@
  },
  "kw_counts": {
   "bmw": 11,
-  "그랜저": 10,
+  "그랜저": 12,
   "a7": 0,
   "G70": 0,
   "Gv70": 0,
@@ -36,14 +36,13 @@
   "카이엔": 1,
   "마칸": 0
  },
- "new_count": 7,
- "drop_count": 10,
+ "new_count": 1,
+ "drop_count": 1,
  "first_run": false,
  "summary_lines": [
-  "신규 7건: BMW iX3 M Sport(수원지방법원), BMW 520i(논산지원), BMW 120i(고양지원), 그랜저(강릉지원), G80(서울동부지방법원), G80(원주지원)",
-  "가격 인하 10건: BMW 220i Gran Coupe(부산서부지원) 2,600만→1,820만(-30.0%), BMW 320i(남양주지원) 2,800만→1,960만(-30.0%), 그랜저 하이브리드(GRANDEUR HYBRID)(수원지방법원) 2,600만→1,820만(-30.0%), 그랜저(GRANDEUR)(수원지방법원) 1,540만→1,078만(-30.0%), 그랜저(GRANDEUR)(안양지원) 2,400만→1,920만(-20.0%), 그랜저 하이브리드(GRANDEUR HYBRID)(강릉지원) 2,700만→1,890만(-30.0%)",
-  "기일 변경 10건",
-  "목록 제외(매각/취하 추정) 18건"
+  "신규 1건: 그랜저(제주지방법원)",
+  "가격 인하 1건: 그랜저(GRANDEUR)(대구서부지원) 1,470만→1,029만(-30.0%)",
+  "기일 변경 1건"
  ],
  "items": [
   {
@@ -141,7 +140,7 @@
    "region": "서울특별시 강서구 금낭화로17길 12 (방화동)",
    "bigo": null,
    "flags": [],
-   "reg_cnt": 27,
+   "reg_cnt": 29,
    "docid": "B0002122026013000353411",
    "key": "B000212|20260130003534|1",
    "link": "carbid_detail.html#B000212_20260130003534_1",
@@ -218,7 +217,7 @@
    "region": "경기도 화성시 기배로 29 202동 102호(기안동)",
    "bigo": null,
    "flags": [],
-   "reg_cnt": 96,
+   "reg_cnt": 103,
    "docid": "B0002502025013005667711",
    "key": "B000250|20250130056677|1",
    "link": "carbid_detail.html#B000250_20250130056677_1",
@@ -300,7 +299,7 @@
    "region": "통영시 산양읍 연명길 82-6",
    "bigo": null,
    "flags": [],
-   "reg_cnt": 15,
+   "reg_cnt": 16,
    "docid": "B0005132026013005042311",
    "key": "B000513|20260130050423|1",
    "link": "carbid_detail.html#B000513_20260130050423_1",
@@ -453,7 +452,7 @@
    "region": "광주광역시 광산구 하남대로54번안길 115 303동 1506호(하남동,하남2지구 다사로움3단지 도시형생활주택)",
    "bigo": "- 계기판상 주행거리는 12,601km\n- 유효검사기간 2024.02.26.~2028.02.25.",
    "flags": [],
-   "reg_cnt": 35,
+   "reg_cnt": 37,
    "docid": "B0005102026013003036811",
    "key": "B000510|20260130030368|1",
    "link": "carbid_detail.html#B000510_20260130030368_1",
@@ -532,7 +531,7 @@
    "region": "부산광역시 북구 상학로 36 201동 1401호(만덕동,이편한세상 금정산)",
    "bigo": null,
    "flags": [],
-   "reg_cnt": 27,
+   "reg_cnt": 29,
    "docid": "B0003102026013010106211",
    "key": "B000310|20260130101062|1",
    "link": "carbid_detail.html#B000310_20260130101062_1",
@@ -611,7 +610,7 @@
    "region": "경상북도 구미시 송동로2길 43, 104동 301호(도량동, 도량미소지움1단지)",
    "bigo": null,
    "flags": [],
-   "reg_cnt": 10,
+   "reg_cnt": 13,
    "docid": "B0003102026013010129111",
    "key": "B000310|20260130101291|1",
    "link": "carbid_detail.html#B000310_20260130101291_1",
@@ -761,7 +760,7 @@
     "재매각",
     "특별조건"
    ],
-   "reg_cnt": 57,
+   "reg_cnt": 59,
    "docid": "B0002402025013050834711",
    "key": "B000240|20250130508347|1",
    "link": "carbid_detail.html#B000240_20250130508347_1",
@@ -928,7 +927,7 @@
    "region": "충청북도 청주시 서원구 궁뜰로62번길 12",
    "bigo": "2024년식. 주행거리 42.440km.",
    "flags": [],
-   "reg_cnt": 33,
+   "reg_cnt": 34,
    "docid": "B0002702026013000019711",
    "key": "B000270|20260130000197|1",
    "link": "carbid_detail.html#B000270_20260130000197_1",
@@ -1004,7 +1003,7 @@
    "region": "경기도 화성시 동탄대로5길 15 101동 1001호 (송동, 더샵동탄센텀폴리스1단지)",
    "bigo": null,
    "flags": [],
-   "reg_cnt": 31,
+   "reg_cnt": 32,
    "docid": "B0002502025013005877411",
    "key": "B000250|20250130058774|1",
    "link": "carbid_detail.html#B000250_20250130058774_1",
@@ -1054,9 +1053,7 @@
    ],
    "photo_count": 11,
    "detailed": true,
-   "is_new": false,
-   "prev_min_price": 26000000,
-   "drop_pct": 30.0
+   "is_new": false
   },
   {
    "court": "강릉지원",
@@ -1084,7 +1081,7 @@
    "region": "강릉시 초당원길 18 (초당동)",
    "bigo": "- 보험사고이력 1회 있음.",
    "flags": [],
-   "reg_cnt": 17,
+   "reg_cnt": 18,
    "docid": "B0002612025013000029211",
    "key": "B000261|20250130000292|1",
    "link": "carbid_detail.html#B000261_20250130000292_1",
@@ -1126,9 +1123,7 @@
    ],
    "photo_count": 3,
    "detailed": true,
-   "is_new": false,
-   "prev_min_price": 27000000,
-   "drop_pct": 30.0
+   "is_new": false
   },
   {
    "court": "원주지원",
@@ -1156,7 +1151,7 @@
    "region": "강원특별자치도 원주시 흥업면 흥업리 0785-0010",
    "bigo": "- 사용연료는 휘발유이며 계기판상 주행거리는 103,017km\n- 사고이력 있음",
    "flags": [],
-   "reg_cnt": 4,
+   "reg_cnt": 5,
    "docid": "B0002622026013005019911",
    "key": "B000262|20260130050199|1",
    "link": "carbid_detail.html#B000262_20260130050199_1",
@@ -1196,7 +1191,7 @@
    ],
    "photo_count": 7,
    "detailed": true,
-   "is_new": true
+   "is_new": false
   },
   {
    "court": "고양지원",
@@ -1268,7 +1263,7 @@
    ],
    "photo_count": 10,
    "detailed": true,
-   "is_new": true
+   "is_new": false
   },
   {
    "court": "남양주지원",
@@ -1353,9 +1348,7 @@
    ],
    "photo_count": 11,
    "detailed": true,
-   "is_new": false,
-   "prev_min_price": 28000000,
-   "drop_pct": 30.0
+   "is_new": false
   },
   {
    "court": "대구지방법원",
@@ -1431,9 +1424,7 @@
    ],
    "photo_count": 9,
    "detailed": true,
-   "is_new": false,
-   "prev_min_price": 27000000,
-   "drop_pct": 30.0
+   "is_new": false
   },
   {
    "court": "대구지방법원",
@@ -1461,7 +1452,7 @@
    "region": "대구광역시 북구 칠곡중앙대로110길 20-5 (읍내동)",
    "bigo": "유효검사기간 도과되었고, 배터리 방전상태로서 정상 시동여부 미상, 외관에 일부 흠집있고, 관리상태는 보통임",
    "flags": [],
-   "reg_cnt": 4,
+   "reg_cnt": 6,
    "docid": "B0003102026013010077111",
    "key": "B000310|20260130100771|1",
    "link": "carbid_detail.html#B000310_20260130100771_1",
@@ -1501,7 +1492,7 @@
    ],
    "photo_count": 6,
    "detailed": true,
-   "is_new": true
+   "is_new": false
   },
   {
    "court": "서울남부지방법원",
@@ -1576,9 +1567,7 @@
    ],
    "photo_count": 8,
    "detailed": true,
-   "is_new": false,
-   "prev_min_price": 34000000,
-   "drop_pct": 20.0
+   "is_new": false
   },
   {
    "court": "수원지방법원",
@@ -1667,9 +1656,7 @@
    ],
    "photo_count": 16,
    "detailed": true,
-   "is_new": false,
-   "prev_min_price": 15400000,
-   "drop_pct": 30.0
+   "is_new": false
   },
   {
    "court": "안양지원",
@@ -1825,9 +1812,7 @@
    ],
    "photo_count": 88,
    "detailed": true,
-   "is_new": false,
-   "prev_min_price": 24000000,
-   "drop_pct": 20.0
+   "is_new": false
   },
   {
    "court": "부산서부지원",
@@ -1902,9 +1887,7 @@
    ],
    "photo_count": 7,
    "detailed": true,
-   "is_new": false,
-   "prev_min_price": 26000000,
-   "drop_pct": 30.0
+   "is_new": false
   },
   {
    "court": "강릉지원",
@@ -1932,7 +1915,7 @@
    "region": "동해시 봉오동길 22, 3동 504호 (용정동, 승우아파트)",
    "bigo": null,
    "flags": [],
-   "reg_cnt": 0,
+   "reg_cnt": 2,
    "docid": "B0002612026013005017311",
    "key": "B000261|20260130050173|1",
    "link": "carbid_detail.html#B000261_20260130050173_1",
@@ -1974,7 +1957,7 @@
    ],
    "photo_count": 8,
    "detailed": true,
-   "is_new": true
+   "is_new": false
   },
   {
    "court": "남원지원",
@@ -2052,9 +2035,7 @@
    ],
    "photo_count": 10,
    "detailed": true,
-   "is_new": false,
-   "prev_min_price": 17500000,
-   "drop_pct": 30.0
+   "is_new": false
   },
   {
    "court": "논산지원",
@@ -2082,7 +2063,7 @@
    "region": "충청남도 논산시 계백로",
    "bigo": "-2022.12.1.제작된 2023년식, 계기판 주행거리 77,136km\n-유효검사기간 2023.2.27.~2027.2.26.\n-사용연료:휘발유",
    "flags": [],
-   "reg_cnt": 0,
+   "reg_cnt": 2,
    "docid": "B0002822026013002014711",
    "key": "B000282|20260130020147|1",
    "link": "carbid_detail.html#B000282_20260130020147_1",
@@ -2124,7 +2105,7 @@
    ],
    "photo_count": 9,
    "detailed": true,
-   "is_new": true
+   "is_new": false
   },
   {
    "court": "서울동부지방법원",
@@ -2152,7 +2133,7 @@
    "region": "서울특별시 강동구 상일동 284-3",
    "bigo": null,
    "flags": [],
-   "reg_cnt": 32,
+   "reg_cnt": 33,
    "docid": "B0002112025013005171611",
    "key": "B000211|20250130051716|1",
    "link": "carbid_detail.html#B000211_20250130051716_1",
@@ -2201,9 +2182,7 @@
    ],
    "photo_count": 10,
    "detailed": true,
-   "is_new": false,
-   "prev_min_price": 46000000,
-   "drop_pct": 20.0
+   "is_new": false
   },
   {
    "court": "서울동부지방법원",
@@ -2231,7 +2210,7 @@
    "region": "서울특별시 송파구 삼전동 60-6",
    "bigo": null,
    "flags": [],
-   "reg_cnt": 0,
+   "reg_cnt": 1,
    "docid": "B0002112026013005045711",
    "key": "B000211|20260130050457|1",
    "link": "carbid_detail.html#B000211_20260130050457_1",
@@ -2273,7 +2252,7 @@
    ],
    "photo_count": 9,
    "detailed": true,
-   "is_new": true
+   "is_new": false
   },
   {
    "court": "수원지방법원",
@@ -2348,13 +2327,170 @@
    ],
    "photo_count": 13,
    "detailed": true,
+   "is_new": false
+  },
+  {
+   "court": "대구서부지원",
+   "court_cd": "B000320",
+   "dept": "경매5계",
+   "tel": "053)570-2306",
+   "case_no": "2026타경3515",
+   "sa_no": "20260130003515",
+   "item_no": "1",
+   "name": "그랜저(GRANDEUR)",
+   "maker": "현대자동차",
+   "year": 2022,
+   "appraisal": 21000000,
+   "min_price": 10290000,
+   "ratio": 49.0,
+   "fail_count": 2,
+   "prev_bid": null,
+   "sale_date": "2026-09-01",
+   "sale_time": "10:00",
+   "sale_place": "1층 입찰법정",
+   "fuel": "가솔린",
+   "vin": "KMHF141DBNA4472258",
+   "storage": null,
+   "body_type": null,
+   "region": "울산광역시 울주군 모두박1길 17, 202호",
+   "bigo": "감정평가서에 따르면 자동차등록원부상 색상은 '회색'으로 등재되어 있으나 현황은 '검정색'임. 백미러 파손 등이 있음.",
+   "flags": [],
+   "reg_cnt": 17,
+   "docid": "B0003202026013000351511",
+   "key": "B000320|20260130003515|1",
+   "link": "carbid_detail.html#B000320_20260130003515_1",
+   "keyword": "그랜저",
+   "deposit_rate": 10,
+   "rights": "2022. 12. 30. 근저당",
+   "mileage": 97997,
+   "plate": "112버3876",
+   "engine": "G4KN",
+   "schedule": [
+    {
+     "date": "2026-07-07",
+     "price": 21000000,
+     "result": "유찰",
+     "kind": "01"
+    },
+    {
+     "date": "2026-08-04",
+     "price": 14700000,
+     "result": "유찰",
+     "kind": "01"
+    },
+    {
+     "date": "2026-09-01",
+     "price": 10290000,
+     "result": null,
+     "kind": "01"
+    },
+    {
+     "date": "2026-09-08",
+     "price": 0,
+     "result": null,
+     "kind": "02"
+    }
+   ],
+   "appraiser_summary": "색상 자동차등록원부상 색상은 '회색'으로 등재되어 있으나, 현황은 '검정색' · 상태 베테리 방전상태이며, 백미러 파손 및 외장손상 등  관리상태는 보통 이하",
+   "appraiser_notes": "자동변속기, 네비게이션 등",
+   "case_name": "자동차임의경매",
+   "claim_amt": 35422083,
+   "receipt_date": "2026-04-17",
+   "photos": [
+    "photos/B000320_20260130003515_1/01.jpg",
+    "photos/B000320_20260130003515_1/02.jpg",
+    "photos/B000320_20260130003515_1/03.jpg",
+    "photos/B000320_20260130003515_1/04.jpg",
+    "photos/B000320_20260130003515_1/05.jpg",
+    "photos/B000320_20260130003515_1/06.jpg",
+    "photos/B000320_20260130003515_1/07.jpg",
+    "photos/B000320_20260130003515_1/08.jpg",
+    "photos/B000320_20260130003515_1/09.jpg",
+    "photos/B000320_20260130003515_1/10.jpg"
+   ],
+   "photo_count": 10,
+   "detailed": true,
+   "is_new": false,
+   "prev_min_price": 14700000,
+   "drop_pct": 30.0
+  },
+  {
+   "court": "제주지방법원",
+   "court_cd": "B000530",
+   "dept": "경매4계",
+   "tel": "064-729-2154",
+   "case_no": "2026타경10800",
+   "sa_no": "20260130010800",
+   "item_no": "1",
+   "name": "그랜저",
+   "maker": "현대자동차",
+   "year": 2020,
+   "appraisal": 16000000,
+   "min_price": 16000000,
+   "ratio": 100.0,
+   "fail_count": 0,
+   "prev_bid": null,
+   "sale_date": "2026-09-01",
+   "sale_time": "10:00",
+   "sale_place": "제주지법 제101호법정",
+   "fuel": "LPG",
+   "vin": "KMHF241NBLA305407",
+   "storage": "제주시 어영길 64-44 제3자 현대물품보관소(주)에게 보관",
+   "body_type": "승용 대형",
+   "region": "제주특별자치도 제주시 용담삼동",
+   "bigo": null,
+   "flags": [],
+   "reg_cnt": 0,
+   "docid": "B0005302026013001080011",
+   "key": "B000530|20260130010800|1",
+   "link": "carbid_detail.html#B000530_20260130010800_1",
+   "keyword": "그랜저",
+   "deposit_rate": 10,
+   "rights": "2025.03.27. 근저당권",
+   "mileage": 0,
+   "plate": "274우9353",
+   "engine": "L6DB",
+   "schedule": [
+    {
+     "date": "2026-09-01",
+     "price": 16000000,
+     "result": null,
+     "kind": "01"
+    },
+    {
+     "date": "2026-09-08",
+     "price": 0,
+     "result": null,
+     "kind": "02"
+    }
+   ],
+   "appraiser_summary": "색상 색상은 검정색 · 상태 전반적인 현상 및 관리상태는 보통",
+   "appraiser_notes": "제동잠금방지방치, 자동비상제동장치, 후방카메라, 제동보조시스템 등이 되어있음. (후첨 중고차 사고이력정보 보고서상 \"자동차 일반 사양정보\" 참조 바람)",
+   "case_name": "자동차임의경매",
+   "claim_amt": 25016060,
+   "receipt_date": "2026-05-19",
+   "photos": [
+    "photos/B000530_20260130010800_1/01.jpg",
+    "photos/B000530_20260130010800_1/02.jpg",
+    "photos/B000530_20260130010800_1/03.jpg",
+    "photos/B000530_20260130010800_1/04.jpg",
+    "photos/B000530_20260130010800_1/05.jpg",
+    "photos/B000530_20260130010800_1/06.jpg",
+    "photos/B000530_20260130010800_1/07.jpg",
+    "photos/B000530_20260130010800_1/08.jpg",
+    "photos/B000530_20260130010800_1/09.jpg"
+   ],
+   "photo_count": 9,
+   "detailed": true,
    "is_new": true
   }
  ],
- "errors": [],
+ "errors": [
+  "kw=Gv70: HTTPSConnectionPool(host='www.courtauction.go.kr', port=443): Read timed out. (read timeout=40)"
+ ],
  "results_total": 39,
- "results_added": 11,
- "results_snapshot": 200,
+ "results_added": 0,
+ "results_snapshot": 123,
  "stats": {
   "bmw": {
    "n": 23,
