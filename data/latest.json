@@ -19,7 +19,7 @@
   "그랜저": 12,
   "a7": 0,
   "G70": 0,
-  "Gv70": null,
+  "Gv70": 0,
   "G80": 7,
   "파나메라": 0,
   "카이엔": 1,
@@ -36,14 +36,10 @@
   "카이엔": 1,
   "마칸": 0
  },
- "new_count": 1,
- "drop_count": 1,
+ "new_count": 0,
+ "drop_count": 0,
  "first_run": false,
- "summary_lines": [
-  "신규 1건: 그랜저(제주지방법원)",
-  "가격 인하 1건: 그랜저(GRANDEUR)(대구서부지원) 1,470만→1,029만(-30.0%)",
-  "기일 변경 1건"
- ],
+ "summary_lines": [],
  "items": [
   {
    "court": "강릉지원",
@@ -2410,9 +2406,7 @@
    ],
    "photo_count": 10,
    "detailed": true,
-   "is_new": false,
-   "prev_min_price": 14700000,
-   "drop_pct": 30.0
+   "is_new": false
   },
   {
    "court": "제주지방법원",
@@ -2482,12 +2476,10 @@
    ],
    "photo_count": 9,
    "detailed": true,
-   "is_new": true
+   "is_new": false
   }
  ],
- "errors": [
-  "kw=Gv70: HTTPSConnectionPool(host='www.courtauction.go.kr', port=443): Read timed out. (read timeout=40)"
- ],
+ "errors": [],
  "results_total": 39,
  "results_added": 0,
  "results_snapshot": 123,
